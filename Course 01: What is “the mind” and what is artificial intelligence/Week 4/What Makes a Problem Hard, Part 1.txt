@@ -1,0 +1,252 @@
+One of the great
+advances that has been made in
+understanding the mind because of the comparisons
+between computational methods and the problems that
+human beings have to face. In other words, one of the great achievements that has occurred over the
+last half century or so because of the way in which computers have informed
+our thinking about the mind is in this
+general notion of what makes a problem
+hard or difficult. Our intuitions about
+what is hard or easy for us proved to be pretty
+interestingly myopic. That is we're not
+always very good about understanding what things are actually hard or
+easy for us to do, until we try and get a
+computer to do them. It's interesting to
+note in the article that Alan Turing wrote
+on the Turing test, he finished up that article. He was talking about
+getting a computer to mimic or imitate
+human intelligence, and he finished up that
+article by saying, what would be a good
+problem for us to tackle as computer scientists in trying to look at this
+general notion of, he wouldn't use the term
+artificial intelligence, but essentially that's
+what he was talking about. What would be a good problem
+for a computer to tackle to illuminate human intelligence and the problem he chose was chess. After all, chess is the kind of thing that intelligent
+people play, it's a hard game. So if you can get a computer
+to play chess well, that's a step forward
+in intelligence. It turns out that there are other things that are
+extraordinarily hard, then in some sense
+harder than chess. But they don't feel
+that's hard to us. So let's take an example. How hard is it to see? When you open your eyes, you seem to automatically know where all the
+objects are in the world. You look around and
+you see an object there and an object
+over there and you know where you are, it seems a kind of
+automatic thing. It doesn't seem like it
+ought to be that hard to do at least as far as our
+intuition is concerned. It turns out that in some sense seeing is
+an impossible problem. We do it and yet in
+a mathematical sense the most formal statement of
+the problem is impossible. Let me give you the
+explanation for that. Here is a diagram of the
+structure of the eye, and well let us just
+assume that what we're dealing with is monocular vision, seeing with one eye. Of course we have the added advantage generally
+seeing with two eyes, but people who only have sight in one eye can also see very well. They can see pretty well and make out the
+objects in the world. So it's possible to solve the vision problem
+with only one eye. Now, the eye is of course a highly complex
+organic structure, but we can abstract all of the complication
+out of it and say that it's basically
+like a pinhole camera, where light comes in through the pupil and it gets projected onto what is essentially a screen like surface at the
+back of the eye, the retina. The retina is lined
+with sensory cells that enable the eye
+to then interpret the patterns of light falling
+on the retina and then do a great deal of processing
+from that point on and understands where
+objects are in the world. But for our purposes right
+now the structure of the eye is a pinhole camera where light comes in through the
+pupil and hits the retina, and from that information alone, that is from the information of patterns of light
+hitting the retina, we are going to determine where
+objects are in the world. Now in the way that I've just phrased it this is a
+mathematical impossibility. The reason being that
+you cannot recover three-dimensions from
+two-dimensions or to put it another way, an infinite number of patterns of
+three-dimensional objects or an infinite number of three-dimensional
+structures could give rise to the same pattern
+of light on the retina. So there is no way that
+we could in general know from the pattern of light on the retina what objects
+there are out in the world, that's a mathematical
+impossibility and yet we manage the task. So this is a very
+interesting question. It has in fact been a huge
+and interesting challenge to get computers to see
+with anything like the accuracy and reliability
+with which people see, this is the field
+of computer vision. It's a marvelous and
+interesting field. But essentially this is
+computer scientists trying to solve the problem of how to get from a camera view to an understanding of
+objects in the world. We are able to do this
+relatively early in life. Vision seems like an
+easy problem to us. In fact, it's a highly
+difficult problem and in order to solve it in the
+way that we managed to do, we can't solve the impossible mathematical
+problem but we can make lots and lots of approximations and smart guesses and so forth, and we can integrate other techniques to try and
+figure out where objects are. Here's another very hard problem, one that we all seem to learn how to do by the time we're five, six, seven years old. How do we learn language? Again, in some sense, this seems intuitively like
+a highly easy problem. We were born, we don't
+know when we're born, whether we're born
+into Athens circa 400 BC or modern day Helsinki or Beijing
+100 years from now, we don't know that at the
+time that we're born and we don't know what
+language community we're being inducted into. All we have is, I mean we have a great deal of internal structure and the
+information that we have is listening to people
+speaking around us along with other things
+that they might be doing. How hard is it to learn
+one's native language? Well, it seems pretty easy to us in the sense that we all pretty
+much succeeded doing it. You can say it takes
+us four, five, six years of ongoing work, nonetheless, we all succeed. Nobody has yet made a computer program that can essentially sit
+on the desk and have people talk to it for five
+or six years and from that learn a natural language. That seems to be a very
+difficult problem. So going back to Turing's
+instincts about this, he felt that chess would be a difficult problem because people find it effortful to do. The things that people don't find that effortful
+to do or we don't remember the effort
+we put into it like learning how to see or
+learning how to speak, those proved to be much
+harder problems than chess. It turns out that over time, computer scientists have
+learned how to program computers to play an
+exceptionally good game of chess, but the things that we seem to know how to
+do by the time we're five or six are the things that prove to be most difficult
+for computers to do. Let's take an example of a reason that it seems to be hard to get a computer to
+pass the Turing test. So you may remember in our conversation about
+the Turing test, that the judge who is sitting outside these two rooms and asking questions of the
+person and the computer. The judge is essentially holding conversations with each of the entities inside these doors, and if the Turing
+test is successful, if the computer is
+are really good mimic of human intelligence, then it should be possible to have human-like
+conversations with the computer that's inside there. Why is that difficult? Why is that a difficult task for computer scientists to solve? There are a number of different theories and
+hypotheses and explanations. One thing that is
+exceptionally interesting is not just problems like learning how to speak
+or learning how to see, but all of the common sense
+knowledge that we seem to have about the world in the
+course of our conversations. So here's an example
+on this slide. These are four
+consecutive sentences taken from apparently a
+real children's book. It doesn't sound like the most interesting children's book to me but these are four
+consecutive sentences taken from a children's book. Now there is some
+cultural knowledge involved in understanding
+these sentences, but I think it's fair
+to say that within the particular culture for which this kind of story is written namely an American
+or Western culture, that any child of the age of six, maybe five, could listen
+to this part of the story and answer questions cogently
+about what's going on. Let's look at these sentences
+one by one and think about especially if you happen to be a
+computer programmer, think about what it
+would take to program a machine to understand
+these sentences. What kind of knowledge
+it would take. So the first sentence is, Jane was invited to
+Jack's birthday party. Okay, conceivably we could
+have a computer program that can understand enough of grammatical English to
+know what that means, "Jane was invited to
+Jack's birthday party." Second sentence, "She wondered
+if he would like a kite." Now, if you're a computer program trying to make sense of this, there's something of a leap
+between those two sentences. Jane was invited to
+Jack's birthday party. Why is she even wondering about whether he would
+like a kite or not? In order to understand
+the connection between those two
+sentences you have to know something about the
+cultural structure of birthday parties
+and also things like, what's appropriate
+as birthday parties involve gifts and what's
+appropriate as a gift. You notice that you would respond very differently if
+the sentences were, "Jane was invited to
+Jack's birthday party. She wondered if he
+would like a yacht." That would imply an
+entirely different kind of story than the one
+we're talking about here. So there's a fair amount of information required just going from sentence one
+to sentence two. Now let's go from sentence
+two to the sentence three. She wondered if he
+would like a kite. She went to her room and
+shook her piggy bank. Now again, think
+about the huge gap. She wondered if you
+would like a kite. So for that reason or in
+some connection with that, she goes to her room and
+shakes her piggy bank. You understand the connection between sentence two
+and sentence three. Think of all the common sense knowledge that
+goes into that. To a computer that could
+look like a non-sequitur. It'll be like, she wondered
+if you would like a kite, she went to her room
+and shook her leg. It seems if you don't
+know a great deal about children and gifts and
+piggy banks and so forth, then you would really be puzzled at why sentence two
+leads to sentence three, and then what's the
+significance of sentence four? It made no sound. What does that mean? Again, because we know something
+about everyday physics. The fact that a shaken piggy bank makes no sound tells
+us a great deal. Getting all of this kind
+of information into a computer program proves to be a really
+interesting problem, and in general, I don't want to make this a hard and
+fast rule but I think it's fair to say overall that since the time that Turing's
+article was written, the things that seem easiest to get computers
+to do are the things that we are able to learn how to do after say the age of 17 or 18. That is, we can get
+computers to play chess. We can get computers to
+interpret molecular spectra. We can get computers to do
+mathematical integration. We can get computers
+to invert matrices. All these things are
+in fact pretty easy, or at least approachable
+to get computers to do. However, the things that we know how to do when
+we're five or six like, walk around the room without
+bumping into things, to interact and conversation, to understand stories
+like this one, those proved to be
+very difficult. So in this talk and a
+couple of following talks, what I'd like to do is try to unpack this notion of difficulty a little bit in the
+light of what we've learned from computer science. So in effect, by trying to
+mimic minds with machines, we have learned a
+great deal about the nuance of what makes a
+problem easier or difficult. Let's start with a
+one type of example. For some types of problems, we think of them as difficult because as computer scientists, we would have no idea really or very little idea
+about how even to begin to program an
+answer to these problems. For all we know, maybe sometimes the problems are ill-defined or there's some reason that
+we couldn't achieve them. But we're not really sure
+what that reason is. In other words, they feel
+like very profound problems. In any event, they're
+problems that we find it difficult to
+get some purchase on. So an example is write a program that will
+pass the Turing test. It's hard to know where to start. We might have some ideas, but it's awfully hard
+to know where to start. Plato's dialogue The Meno, starts with somebody,
+a young man, going up to Plato's mentor Socrates in the streets
+of Athens and saying, "Socrates, can you teach virtue? Is virtue teachable?" From that they immediately get to the question of what is virtue. If we know what virtue is, maybe we know whether
+it can be taught. Well, in some sense, that's a very important problem. Every parent wants to be
+able to teach their child, if possible, to be a good
+and virtuous person. To some it's unimportant problem but it's hard to know where to start to begin to define virtue and to think about what
+it would mean to teach it. It's a problem that we
+look at it and we say, this is so large and and it may be ill-defined
+as far as we know, but there's no apparent easy way to get started with it or to take a classic almost
+facetious example to explain the meaning of life. Hard to do. Another kind
+of difficult problem is one where you're asked to do something and you
+know that it is impossible. It can't be done. In human affairs,
+this is actually a tremendous knowledge, usually. When you know that something, a well-defined problem
+is impossible to solve, you know a great deal and often these impossibility
+proofs represent major landmarks of
+human thinking. So for example, the angle try-section problem using a
+straightedge and compass, and given an angle theta, construct an angle of
+magnitudes theta over three. Take an arbitrary angle and create an angle one-third that
+size, an arbitrary angle. Now, it turns out that given
+a straightedge and compass, this can't be done. But it was an extremely
+provocative problem to the ancient geometers and they did not know that
+it was impossible. In fact, the proof
+that this problem is impossible wasn't
+established until the 1800s, until the 19th century. So it took thousands of
+years for people to come to the realization to
+be able to prove that this is not only
+just a hard problem, It's an impossible problem. You might as well not even try to do it because we know
+that it can't be done. Similarly, another
+impossibility is to write a computer
+program in the hope, give this in the more or
+less formal description. To write a computer program which given any other
+program P and input N will determine whether
+the program P halts on N. Let me say that again. What we want is a program
+that will take as its input on another
+computer program P and an input value N and will run on its own and
+then come back and tell us whether the program P ever halts the input N. It turns out
+that that is impossible. That's called the
+halting problem, and Alan Turing showed that
+that was impossible in a marvelous and much discussed
+and anthologized paper written in 1936-1937. So again, this is
+something that, in fact, it may sound like abstruse
+mathematical problem, but essentially, it's
+the debugging problem. Could you write a program which could infallibly
+debug other programs? Informally, is the way
+we could put that. The fact is you can't,
+it's impossible. Knowing that it's
+impossible is again a huge achievement
+in human thought. The perpetual motion problem
+in Physics and so forth, knowing that something is
+impossible is a very big deal. So we'll continue
+with this discussion, but these are two types. We've just introduced
+two types of ways in which a particular
+problem can be difficult, and we'll see some other
+ways in the next talk.

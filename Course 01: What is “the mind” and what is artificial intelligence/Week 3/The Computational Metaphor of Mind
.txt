@@ -1,0 +1,198 @@
+In the history of science,
+metaphor has been an extremely powerful and
+abiding intellectual tool. People often understand one element
+of the world by making an analogy, a rich analogy to some
+other aspect of the world. And as the,
+it's fair to say that over time, as our technology grows,
+as we have more and more instances of technology around,
+we're able to use those instances as the sources of metaphor for
+still other phenomena in the world. What I'm getting at is that in the in
+the history of cognitive science in particular,
+there's been one reigning metaphor. One sort of, you know, foundational metaphor that has motivated
+a lot of the work in cognitive science. You might, in some sense, a just about
+all of the work in cognitive science over the past 60 or 70 years and
+that is the idea that the human mind or animal minds can be modeled
+by a digital computer. So we'll talk about that metaphor. But actually I want to introduce
+the idea by talking about an earlier metaphor from
+the history of science. Science is filled with these things, that is people continually
+sort of look to understand one phenomenon by linking it
+systematically to another. The example I have here is from the early
+days of the Scientific Revolution. The portrait is of William Harvey,
+who was an English physician and I believe he was actually the physician the Royal
+Physician to King James the first. And the page that you see is a page
+from a book that he wrote in the early 1600s about the workings of the heart. The main idea behind
+this book was a metaphor was to propose that
+the heart act like a pump. And that was a very innovative metaphor at
+the time because prior to Harvey's book, the sort of raining metaphor of the heart
+was that it was kind of a brewery. That was sort of the metaphor that was,
+would have been favored by the ancients, by writers like Galen,
+the classical physician. That is they felt that the heart's
+purpose was to purify blood and that it had two parts, two chambers. And in one chamber that was impure blood
+and then somehow that was transferred to the other chamber of
+the heart where became purified. That was sort of
+the portrait of the heart, Harvey proposed a different metaphor. He said no the heart
+is not like a brewery. It's more like a pump and
+he performed a variety of new experiments to show that that
+this was a rich metaphor. And you could take it very far for understanding what
+the nature of the heart was. So this is an early example. It's not by any means the first example
+of the use of metaphor in science, but the history of science is just
+filled with things like this. And I put up a few pictures from
+the web just to illustrate other sort of chapters in metaphor
+from the history of science. At the upper right there,
+there's the the idea that the the solar system
+is kind of like a clock. So in the sort of early investigations of the solar system by Newton and
+by Galileo and then prominently by Newton and
+then by successors. There was a kind of metaphor that
+the solar system works kind of like a clockwork,
+a giant sort of well-tuned mechanism. And as I say, that's an example of
+the use of technology, a clock, to motivate a metaphor for
+understanding the natural world. But then once you've got that idea of the
+solar system as a kind of working system. It could be used as a part of a metaphor
+that is the foundation of a metaphor for still later chapter in The History
+of Science where people could kind of understand
+the structure of the atom. As being sort of like a tiny
+little solar system and students of students of
+electricity are quite familiar with the common use in elementary electrical circuits of
+imagining that voltage. That is to say potential current and
+resistance can be made into you know can be treated analogously to water pressure
+and water flowing through pipes, okay? I should mention that none of these
+particular metaphors is exactly correct. They're helpful and a good metaphor
+is defined by its being helpful. It helps you to ask new questions,
+to propose new directions for research, to conduct new experiments,
+the way that William Harvey did. But that doesn't mean that a metaphor
+has to be a sort of perfect match. And in fact in none of these cases,
+is it a perfect match. The solar system is not
+quite like a clockwork. It was found in the 1990s, for
+example that the orbit of Pluto which I still wish I could call a planet but
+I guess technically it isn't. But the orbit of Pluto actually exhibits
+chaotic patterns in its movements in and out of the the orbit of Neptune. So the solar system is not quite
+a sort of regular clockwork nor of course is the atom
+a little solar system. Anyone who's studied quantum mechanics and
+chemistry knows that you there are limits to whether how you can treat
+the atom as a tiny little solar system. And similarly in electric circuits,
+you don't want to push this metaphor of water pressure and
+narrowness of pipes and so forth. You don't want to push that too far. It's pretty hard for example to imagine how you can treat
+a capacitor in this kind of model. So in any event,
+none of these metaphors are perfect. Metaphors aren't intended to be perfect. But in cognitive science,
+we have a kind of traditional metaphor, which is not in itself uncontroversial. Where historically, what we want to say is that the mind is kind of
+like in the strongest versions people might even
+make it a little more, a full-throated defense of
+the mind is a computer. I'm personally more comfortable with
+saying the mind is like a computer in some ways. In any event, the innovation here
+was that once computers arose, that is once there were
+computers to use as a foundation of this metaphor starting
+in the late 1940s and early 1950s and thereafter. People began to look at the operation
+of the computer as an information processing device. And they were willing to sort of go
+out on a limb with a new metaphor and say that the mind,
+the human mind is itself like a computer, it's an information processing device. This was seen at the time
+as a response to what was then the the raining tradition
+in American psychology, which is behaviorist psychology. So the behaviorists argued again,
+there were a variety of you know, philosophies that could go
+under the name of behaviorism. At its strongest,
+the behaviorists might argue that you really should not talk about
+things like ideas or concepts or beliefs or desires or
+anything internal to the mind. Because those things cannot
+be directly seen or measured. And since they cannot be directly seen or measured, they
+are scientifically illegitimate. So the the behaviorist at again,
+at their strongest, had this kind of rigid view that you should not be able to talk
+about the internal workings of the mind. The organism should be treated
+essentially like input output devices, like black boxes. If you give them a certain kind of input,
+you get a certain kind of output, so forth. So the the cognitive
+revolution in Psychology was based on a metaphor,
+was people were now able to say, no we can talk about things like ideas and
+concepts and beliefs and desires if we say that
+the mind is in fact like a computer. So just as we can stud the behavior of a
+computer and we can write programs for it. Similarly, we can use those programs as
+a metaphor for the operations of the mind. If you take the metaphor really
+seriously and by seriously, I mean sort of at its
+most at its most intense, you actually treat
+the metaphor as accurate. Not just a little bit of poetic
+license then you could make the argument that the software
+of the computer is rather like the operations of the mind
+within the brain. That is software is to
+hardware as mind is to brain. The the brain runs
+the mind as software much as a digital computer runs its software to perform all kinds of different actions. That's a very strong version of
+the computational metaphor of mind. There are far weaker versions and
+there are versions that allow for a lot of hand waving that in some respect. You can treat the mind as operating like
+a computer or you can write programs for computers that illuminate
+certain operations of the mind. Those are again,
+much gentler and usually less controversial versions of
+the computational metaphor. The most intense version is this one and
+if you take that seriously, then there are a couple of things
+that sort of follow from it. And these are again,
+controversial conclusions, but they follow from the sort of most
+direct interpretation of this metaphor. First, if software is to
+Hardware as mind is to brain, then if you want to understand the mind, you don't really have to
+understand the brain to do it. You don't have to, in other words, you don't have to explain
+the mind that the level of Neuroscience. Why would that be true? Well, if for those computer
+scientists who may be watching this, you know well that if you're
+a computer programmer, you don't really have to
+have a very deep idea about the hardware of the machine
+that you're writing for. Unless you're writing in a very, you know,
+sort of low level language like machine code or assembly code or
+something like that. But if you're writing in
+a high-level language, you don't really have to know much
+perhaps, you don't know anything about the hardware of the machine that is going
+to run the program that you're writing. So you can study the algorithms and
+the computational ideas in software without knowing
+much of anything about hardware. And the computer science students
+routinely take courses in algorithms. For example, where hardware
+is virtually never mentioned. If you understand the idea
+of a quick sort algorithm, you don't have to understand anything in
+particular about the the specific machines on which that quick sort
+algorithm is going to be run. You can talk about quicksort
+as an entity in its own right. You can talk about how long it takes
+to run, whether it's a good idea, whether it's an efficient algorithm,
+what its limitations are and you don't have to talk
+about hardware at all. Similarly, If you take this
+metaphor of mind seriously, then to talk about the mind in software
+terms, you need not talk about the brain. You could you could talk about certain,
+for example, the process of language acquisition or
+visual perception. Or a variety of things without necessarily
+referring to the implementation of those ideas in neurons in
+human neurons in the brain. That as I say is a rather
+controversial interpretation, and I think it's fair to say that
+most cognitive scientists, the great majority, do not hold
+to that interpretation anymore. However, this was a version of
+the computational metaphor that played an especially powerful role in
+the early years of cognitive science. A second thing, which is mentioned
+on this same slide is that if you take this metaphor seriously. Then just as computer
+scientists study algorithms and study things like arrays or lists or
+data structures or whatever. Then in the same vein,
+you could treat mental representations as the data structures and you could study those data structures. However they're implemented parse trees, symbols, rules,
+collections of rules sets of pixels as images all kinds of
+different representations. So you could study those representations
+and treat them as themselves the objects of study just as you
+would study data structures and algorithms in the realm
+of computer science. Again, that's that's a very
+interesting idea that now where the behaviorists would rule
+those things out of court. That is you you're not allowed to study
+things like parse trees and rules. Because we can't see them and
+we can't measure them directly. Now, since we can write programs
+which can mimic human behavior, we are allowed to talk about
+the the questions of whether humans at least behave as though they
+are running sets of rules. Or working with mental images or
+using, you know, context-free grammars as the basis
+of their language and so forth. Okay, so a corollary of this, the the sort of
+the the philosophical support for this idea of the computational metaphor goes by the name of functionalism. Actually, I think there's a few
+different uses of the word functionalism in philosophy. But this is a particular one that
+applies to cognitive science. So I'm just going to
+read off the slide here. It's generally summarized as the notion
+that mental states are characterized according to their causal roles
+in a system of mental states. In particular, doesn't matter in what physical substance
+these states have to be embodied. There's a resonance here again with
+the notion of a computer program. It doesn't matter whether the program
+happens to be rewritten for a Macintosh or cry or whatever
+the essential program remains the same. So the idea of functionalism
+is that you need that you can, you can study things like the mind
+as a working system of rules, states, computational elements. And what's important is how those
+things work together as a system, but it doesn't particularly
+matter what physical machinery or substrate those things are implemented in. Again, that this is just a another
+sort of fancy philosophical way of describing the strongest version of
+the computational metaphor of mind. As we talk about the variety of
+research efforts in cognitive science, we will also talk about the strengths and
+limitations and possible futures of this
+overall computational metaphor. The story of the computational metaphor
+of mind is not by any means finished but it's been an interesting saga. And we're going to be talking about
+both the criticisms of that idea and where that idea has had its
+own kinds of successes.
