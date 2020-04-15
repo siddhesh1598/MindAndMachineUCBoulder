@@ -1,0 +1,284 @@
+In trying to think about
+the ways in which machines and human minds or animal minds are both
+similar and different, a reasonable idea is to take a sample domain for
+human thinking, and to see if we can
+model it using computers. Now, there are lots of domains, lots of sample
+problems that we could imagine like how do we see, the vision problem or
+how do animals navigate, the navigation problem, or how do we make judgments
+about certain situations. But a reasonable place to start, and in fact historically, this was a place that
+cognitive science started, is to look at a fairly
+constrained narrow set of problems that human solve. The problems that I have in
+mind are represented here. I'm thinking of things
+like puzzle problems. Now, why are those good
+examples to begin with? First of all, the idea
+is that we're trying to take fairly narrow constrained, but still interesting
+problems that people solve, and to see if we can get some ideas about how people solve those problems by trying to model the process using
+computer programs. Puzzle problems are very
+natural start for this. I'll talk a little bit
+about why that's true. But the things that
+I have in mind here, you see Rubik's cube
+or the the puzzle at the upper right there
+is the 15-16 puzzle, where the goal is to
+slide those little tiles. You can only slide a tile
+into the blank space. So for example, in the 15-16 puzzle that you see
+at the upper right there, I could slide the 14 down into the blank space or the 4
+across into the blank space, and you can keep making
+moves like that. Your goal is to try and arrange the 15 tiles so that they
+start at the upper left, and they're in
+numerical order, 1-15. The puzzle at the bottom right
+is the rush hour puzzle, where you have little plastic
+cars and trucks on a grid, and your job is to
+move the cars and trucks around so
+that the red car, which you see buried
+in the mass there, can drive all the
+way out of the grid through that little
+gap at the right. That's the goal of
+the Rush Hour puzzle. The moves are that
+you can move trucks and cars back and forth
+in rows and columns. Of course, there's the famous, by now addictive, Sudoku puzzle. I'm also going to mention another puzzle
+because I'm going to use to think with here. So it's the college
+students letter home. It's an arithmetic
+puzzle, send more money, and the idea here is that each unique letter stands for a unique digit
+somewhere between 0-9. If you see the letter
+more than once, like the letter E for example, that will stand for the
+same digit throughout, and the result is that
+this is a legitimate, it's a correct addition problem. So if you add the numbers
+representing send and more, you get the number
+representing money. So this is one of these standard
+arithmetic type puzzles. Oh, I should mention one other interesting
+constraint on this puzzle. The numbers are written
+in standard fashion meaning that you're
+not going to write a number with a leaving zero. So right off the
+bat, for example, you know in this puzzle that S and M do not stand for zero. That's one of the
+things you know. In any event, all these are the problems that seem
+like they might be good first examples to think with for modeling
+human minds with machines. Now, there are strengths and limitations of these puzzles. First of all, they are characterized by
+not only conscious, but as I say here
+effortful thought. It seems to take
+effort to solve them. You have to work at solving them. What I mean by conscious is that at least much of the
+problem solving process, perhaps not all of it, but much of the problem solving process could be vocalized. You could say what
+you're trying to do, you're aware of what
+you're trying to do. That's not always the case as we've seen in thinking
+about problems. We don't really know how
+it is that we recover three dimensions from
+two when we open our eyes and look at
+objects in the world. We're not really
+conscious of that. There's much that
+we do, of course, where we have tremendous talents like being able to tie our shoes, or ride a bicycle, or walk around the room
+without bumping into things, where it's very hard to make conscious what it is we're doing. In the case of these
+puzzles though, they have at least a
+substantial element of conscious thought about them. As I say, they're
+evolutionary recent meaning, I guess animals don't do them, animals don't seem to be terribly interested in abstract puzzles. So this is something
+that human beings do, again unlike a
+problem like vision or walking on two legs, some other animals
+are able to do, or navigating a space,
+or things like that. Those are evolutionary
+older venerable problems, and we might look to animals solutions to these problems in thinking about
+how to model them. But puzzles are human problems, and in some ways, that makes them easier for us to think about because
+we don't have to think about a long
+evolutionary history to this whatever equipment we have, whatever talents we have
+at solving these puzzles, we've developed pretty recently. They're not especially
+complicated by things like cultural
+or affective elements. I say that a little carefully. Naturally, there are
+some cultural elements to all the puzzles
+that I've shown. Not all cultures are equally
+into different puzzles. Moreover, it's not quite
+accurate to say that there's no affective or no emotional
+element to these things. You want to solve them, you're curious
+about solving them. So you do have some
+interest in solving this. Otherwise, no one would
+attempt them at all if there was absolutely no
+affective component. On the other hand, if it is fair to say that
+these are reasonably abstract, and they're reasonably
+not cultured dependent, that is, you get the feeling that for many of these puzzles, you could explain them to
+people from a wide range of cultures even people
+who have never seen the puzzle before, and they would understand
+what the puzzle means. So there's not a
+strong dimension of cultural or emotional
+baggage to these things, which again, you might hope might make them
+easier to model. They're self-contained, as I say, which is that they don't require a great deal of background
+knowledge, they require some. You have to understand
+the ideas of arithmetic, or you have to understand the basic physics
+of sliding tiles, or perhaps what it
+means to handle a Rubik's Cube, but nonetheless, these are problems
+that don't require scads of outside factual
+knowledge about the world. So all of these things make
+them pretty good candidates for an attempt to model the human problem-solving
+process by a machine, how do we solve these problems, how could you get a machine
+to solve these problems. Those same advantages are also in the sense disadvantages. These problems because they are abstract and because
+they're fairly narrow don't partake of some of the qualities that we might also be interested in. Problems that animals also solve or problems
+where we find it hard to vocalize or make
+conscious our solution. So those are especially
+interesting problems, and we're ruling them off
+limits for the time being. So we'll look at these. A natural way that
+when people started to model the human
+problem-solving process for these puzzles. A natural way was to think of the problem in terms of what
+computer scientists call a problem space and what they mean by a
+problem space is a graph. I'm not talking about a graph
+like a graph of a function, rather a graph that
+consists of lots of vertices which are always
+represented by little circles. So vertices are
+represented by circles, and edges are represented
+in this case by arrows. The idea is the vertices of this graph are meant to represent particular
+states of the puzzle. So for instance in
+the 15-16 puzzle, a state of the puzzle
+could be an arrangement of the 15 numbers
+and the blank space. So some arrangement of the 15 numbers and
+blank space within that four by four grid represent
+a state of the puzzle, and each state, each unique state is designated by a
+vertex in the graph. Edges between vertices represent what we naturally think of
+as moves in the puzzle. So if we were to move in this 15-16 puzzle
+that I show here, if we were to move the
+14 tile one space down, that would change our state from one particular state in the problem space to a nearby
+state in the problem space. This is a very general technique for representing
+puzzled type problems. It's often used to try to
+represent the other problems, but it has a natural affinity. It has a certain natural quality for representing
+puzzled type problems. So you could imagine if you think about this how you would represent a puzzle
+like the 15-16 puzzle, the Rubik's Cube puzzle, Rush-Hour puzzle.. Take
+a little more ingenuity perhaps to represent the
+arithmetic puzzle this way, but once you've got the hang of translating problems
+into problem spaces, there are some natural
+candidates for those things too. So a problem space is a good general
+purpose abstraction for representing a lot
+of these problems. Once you've decided to think about puzzles in
+terms of problem spaces, other insights emerge from
+that metaphor right away. First of all, we
+could talk about how hard a problem is.
+What does it mean? We've been speaking
+and we've thought about this question of
+what makes a problem hard. Well, one of the questions
+about a puzzle is, is it a hard puzzle
+or an easy puzzle? One way to reframe that question not the only way it's
+not the only factor, but one way to reframe that
+question is to think about how big is the problem
+space and by that I mean, how many nodes, how many
+vertices are there, how many distinct states
+are there in the problem. That's at least a rough measure of how difficult the problem is. It fits our intuition
+because we sense that if you take a similar puzzle but have smaller or larger versions of it, the larger versions
+intuitively are going to be more difficult than
+the smaller versions. You could imagine cases where
+that might not be true, but still that's our intuition
+and it's a good intuition. So the 15-16 puzzle is
+harder than the 8-9 puzzle, where you're moving
+only eight numbers around in a three-by-three grid. Presumably if we made a 5-by-5
+grid, the 24-25 puzzle, that would be harder
+to solve than the 15-16 puzzle and
+similarly with Rubik's Cube, the market versions they
+actually mark it a two by two by two version and three
+by three by three, and four by four by
+four and so forth. So each of those puzzles, they get progressively harder as the cubes get
+larger. Why is that? Well, we could actually put a numeric measure
+to that by saying, how many distinct state are there in each of these puzzles. Again, our intuition is
+that the larger the graph, the more of the possible states then the harder the puzzle. Let's take a couple of examples. For instance, in
+the 15-16 puzzle, how many distinct
+states are there, that'll tell us something about how difficult the puzzle is. Well, I'm making a
+rough estimate here. In fact it's not a
+perfect estimate, but a reasonable estimate as to how big the problem space is for the 15-16 puzzle would be to say that in the upper
+left corner there, we could have any of
+16 distinct things, 15 numbers or a blank. So there are 16 choices for what's in the upper
+left corner that the tile right to the
+next just to the right of the upper side to the upper left corner
+which in this case, is occupied by five. Once we've chosen one of the 16 possibilities for
+the upper left corner, there are now 15 remaining
+possibilities for that tile. Once we've chosen that tile, there are 14
+remaining choices for the space which is in this
+photo occupied by 12. So it doesn't take
+a whole lot beyond that to see that the number
+of possible states in the 15-16 puzzle is
+16 choices times 15 choices times 14
+times 13 times 12. Finally, when you get
+to the last space, you have only one choice and that's written as 16 factorial. So there's 16 factorial
+as a first estimate, 16 factorial distinct
+states in the 15-16 puzzle. In fact that's not
+quite right but I'm not gonna go
+into the details. This is a pretty good estimate, 16 factorial is a big number. So lot of distinct
+states in this puzzle. How many states are
+there in the 8-9 puzzle? Well, by the same reasoning, there are nine factorial
+states in the 8-9 puzzle. That's not a small
+number but it's considerably smaller
+than 16 factorial. If we wanted to do
+a 24-25 puzzle, we would need a graph of size 25 factorial which
+is a very big number. So our intuition
+is telling us that the larger the particular
+version of a puzzle, the harder it gets. That intuition is
+matched by what we see in the size of the problem space for
+each of these things. Nine factorial is
+not a small number, but it's considerably
+smaller than 16 factorial, which itself is considerably
+smaller than 25 factorial. The counting states for the Rubik's Cube takes
+considerably more work but again, it turns out to be the case that the three by
+three by three cube has quite a few distinct states, has a very large
+problem space but it's smaller than the four
+by four by four cube, which itself is a
+good deal smaller than the five by
+five by five cubed. So again, the sizes of the
+problem space gets bigger. How about this Send
+More Money puzzle? How big is its problem space? Well, we can make a pretty
+good estimate of that too. We'll say that each of
+these, as it turns out, there are eight distinct
+letters in this puzzle, S-E-N-D M-O-R and Y. So there are eight distinct
+letters in this puzzle. By the same reasoning that
+we used with the 89 puzzle, we could say well, we can assign one of 10 digits
+to S, anything from 0-9. Once we've made that assignment, we only have nine
+digits left that we could assign to
+E. Once we've made that assignment we only have eight digits left that
+we could assign to N. So first reasonable
+estimate is 10. Actually, it's not
+quite 10 factorial because we only
+have eight letters. So we end up going down to 10 times 9 times 8 times 7 times 6
+times 5 times 4 times 3. Which another way of writing
+that is 10 factorial over 2. So we have 10 factorial over 2 distinct assignments of
+numbers to letters here. We may in fact want to play
+with our representation of the problem space but that's not a bad first estimate anyway at the size of
+the problem space, and it too is pretty big. Okay. The fact that we have
+at least a beginning metric, a beginning way of thinking about the difficulty of a
+problem is helpful. It isn't the whole story, what makes a problem
+difficult is not just the size of the
+problem space although, it's natural that that would
+be a contributing factor. It may include other
+things like well, let's think about this. Once we have a graph
+representation of a puzzle, we can start to think about some other things about
+this representation. When we receive a puzzle, like an unsolved Rubik's cube or the Send More Money puzzle or The Rush-hour puzzle with all the cars scrambled
+around the grid, when we get that puzzle, we are being given a starting
+state in this graph. Think of it as one of
+the distinct states of the graph and that's
+where we're going to start. So you've given us
+a puzzle and it happens to correspond to
+this vertex in the graph. Now, our job is to move
+about the graph so that we can take specific moves from one state to another until
+we get to a goal state. A goal state is, there may be more than one in the graph or there may be just one but a goal state is a vertex which represents
+the solved puzzle. So in the case of say
+the 15-16 puzzle, there would be one
+state in the graph that represents the
+arrangement of tiles from 1-15 followed by a blank. That's the goal state. Our job is to find
+a path in the graph starting at our start
+state and moving over edges because
+those are legal moves. So we're moving over edges in the graph to get
+to the goal state. Computer scientists refer to
+this as a search problem. We're searching a graph starting at a
+particular vertex and looking for a particular
+target vertex, and we're doing a search of the graph to look around and see if we can get to that
+goal or target vertex. This is a search problem
+that itself gets us to think about certain algorithms or certain computational ideas that we could employ to
+do a graph search. It's the thing that computers
+are really good at doing. So we've taken the
+situation this far. We've said okay, there
+are certain kinds of puzzles and we can represent
+the puzzle as a graph, and we can represent
+our attempt to solve the puzzle as
+searching the graph. Now, even in saying that, we're already making
+some big assumptions, is this really what people do? Is that really a
+good model of how people think about these puzzles? Even again, now we
+might even think, well we don't do
+this consciously, but maybe in a sense if we're
+vocalizing our solution, you could make some
+matches between. You could make some
+correspondence between the things that we say we're thinking about and the tasks involved in
+searching a graph. We could start to explore that. Certainly, we could
+start to explore writing computer programs to
+solve these puzzles, but we're not guaranteed
+when we do that, that the computer programs are particularly
+representative of what humans are actually doing
+when we solve the puzzles. It's not a bad start though. So we'll continue with our
+discussion of these problem solving models in
+the next session.

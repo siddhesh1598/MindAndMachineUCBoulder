@@ -1,0 +1,355 @@
+We've been talking about using computers to
+solve problems, and for the time being the problem that
+we have in mind is mostly the standard puzzles that we saw in a
+previous lecture. Which is to say, think
+about things like the 15, 16 sliding tile
+puzzle, as an example, or Rubik's Cube or various
+other kinds of puzzles. Those are, at least, to a first approximation, those are the problems
+that both we, as humans, are able to solve. Sometimes with a great
+deal of difficulty, and the computers are able
+to solve because they fit well into the programming
+style of problem solving. When computers are given the task of solving
+puzzles like this, as we described, we think
+of the puzzle in terms of a space or a graph that the
+computer is going to search. We're going to write a computer
+program to systematically search a graph which represents the available
+states of the puzzle. Our initial situation, the
+puzzle that we're given, is a start state in the graph. Then we're going to move from
+node-to-node in the graph. Looking, as we go, where each move from node-to-node
+represents a move in the puzzle like a twist of a Rubik's cube or
+a slide of a tile. But we're going to move from
+node-to-node in the graph, searching in some systematic way for the goal state of the puzzle. Now, there are many techniques in computer programming
+for graph search. There are a few basic techniques, and I'm going to describe
+a couple of those today. But one can spend a
+tremendous amount of time studying the ins and outs of searching
+graphs via computer. For our purposes,
+we're only going to describe some major ideas. But of course, there's much more detail that you could go into if
+you're interested. To begin with, we're
+going to think of searching our puzzle graph or searching our problem graph in terms of what are
+called weak methods. Now, they're called
+weak methods not because they're useless
+or not helpful, but because they don't assume any real knowledge of the problem beyond the
+problem space description. That is, once you've
+framed the problem in terms of a graph, you can use weak methods to
+try and find a solution, a goal in the problem. Let me be a little specific. Imagine we're doing something like solving the 15-16 puzzle. We represent our initial
+state of the 15-16 puzzle. I'll just do this one time, so you can see what a
+state is supposed to mean. So imagine putting in
+numbers in each of these little squares and
+there's the empty space. So our initial state
+of the puzzle is represented by this node. Everywhere that we can
+get to in one move, that is one sliding tile, is written as a new node. In this case, there are three
+next moves because we could move this little tile in
+here or this one up here, down or this one below, upwards. So there are three next
+moves that we could go to. From each of those, we could go to still other
+states of the puzzle. I don't know if three is the right number of arrows
+to be drawing here, maybe I could draw two in
+one case or four in another. But in any event, think of this as the start state of the puzzle. These are all the
+states you could get to within one legal move. The next layer is all the states you could get
+to within two legal moves. The next layer is all
+the states you can get to using three legal
+moves and so forth. Now, I'm sweeping some
+stuff under the rug here. For one thing, it's
+clear that for many puzzles this graph
+format will be enormous. We'll deal with that. I mean, that's part
+of the difficulty of solving puzzles in general. Also, I've structured this graph in a form that computer
+scientists call a tree. Meaning, in this case, there's more definition to give but from our standpoint what it means is there is a designated
+state called the root, which is where we
+started the puzzle. Then there are branches
+from the root going to all the moves, all the places, the states of the
+puzzle we can get to within one move and then from this their branches to
+all the states we can get to via two
+moves and so forth. So the structure of this
+graph will look like a spreading tree as
+it moves downwards, as we go to four and five
+and six moves and so forth. So with this in mind, searching a graph becomes
+searching a tree, and the standard weak methods, the two that are always
+introduced first in this context, are called depth-first search
+and breadth-first search. Depth-first search, we could go into much greater
+detail but I'll just give you a informal description
+of depth-first search. Depth-first search means that you follow a certain path of moves. Imagine that you're
+make one move and then you make a second move and a third move and a fourth
+move and so forth. You're following down, in depth, a particular path to trying
+to solve the puzzle. If you run out of options or you reach a dead
+end then you move back up to the last
+place that you were able to make another
+choice and try that. So qualitatively, the feel of depth-first
+search is that it looks down a tree
+for a long way. If it runs into a dead end, it backs up and tries
+some other branches. If those don't work, it backs up some more and
+tries some other branches. So you get this
+pattern of working up and down the tree
+until you find, hopefully, a solution
+to your problem. Breadth-first
+search, by contrast, is a systematic way
+of searching a tree in which you first look to see
+if this is the goal state. If not, you look at all
+the states you can get to within one move and see if
+they contain a goal state. If not, you look at
+all the states you can get to in two moves. See if they contain a
+goal state and so forth. So breadth-first
+search is almost like reading the tree
+across as a text. You're seeing if the goal state is here then in the next layer, the next layer, the next layer. As I say, these are methods
+that don't depend on knowing much about
+the puzzle other than the fact that you've
+set it up as a tree. They're useful methods and they're often the foundations
+of more complex methods. But they're also highly
+flawed in the sense that there are different reasons why either one can prove
+to be a huge problem. In the case of
+breadth-first search, we've noted that problems have this nasty habit of expanding,
+sometimes exponentially. So if you look at
+a tree like this, you might see one node
+in the top layer, three nodes in the second, nine in the next, 27 in the next, 81 in the next. If your solution takes
+something like 25 moves, you will be looking at
+an extraordinary number, an unwieldy number of
+problem states in this tree. Depth-first search runs
+into other problems in that sometimes a problem
+space is infinite. You may find yourself,
+for example, looking down a path way of potential moves that never ends. The 15-16 puzzle is not
+infinite and so you can set up depth-first
+search so that it will eventually find a solution. But it still may take an
+extraordinarily long time. As I say, weak methods are called that because they assume
+very little knowledge. In that respect, they're
+not very human-like. To some extent we do
+things when we're solving puzzles that can
+look a little bit like depth-first or
+breadth-first search. But in their extreme versions, we don't really think that way. You may reflect on the way in which you solve some
+puzzles and see if there's some elements of your
+own problem-solving that feel either a little bit like breadth-first or
+depth-first search. More human-like, that
+is as we're moving from machine solving puzzles
+to minds solving puzzles. There are machine techniques that feel a little closer
+to the human style, there's still not perfect in every respect but they
+feel a little closer. One is called hill climbing, and the idea is you think of the problem space as laid out on a terrain in which the closer
+you are to a solution, the higher the terrain is. So in fact what you're trying
+to do is wander around the terrain on this graph
+looking for the highest peak. Think of the solution to the
+problem as a mountaintop, the towers above the
+rest of the graph. So you're moving
+around on this terrain looking for the highest
+peak of the graph. Now, hill climbing
+is not a bad idea if in moving around the graph you're always trying to move upward. So it's as though you were
+walking on a terrain, that geographical
+terrain, and always seeking to move upward as you go. In certain situations
+that can work very well. In other situations
+you may run into problems where for example, you may be looking for the highest peak in
+your graph and you may run into a situation where there are two
+standard kinds of problems. These aren't the only ones. But one problem is you move
+to the top of a little hill, and it is not the ultimate
+solution to the problem, but every move that you can make from that little hill seems
+to be a move downward. That can be an issue because you don't really
+know how you're stuck. It's what could be
+called a local maximum, meaning you've moved to a
+place where every move from that particular situation seems to make your situation worse. However, this little hill is not the ultimate
+solution to your problem. So it's hard to know
+where to go from here. Another kind of problem with hill climbing
+is that you may be on extraordinarily
+flat terrain, a plateau in which there's no clear reason to move in
+one direction or another. Those are the kinds of problems that come up
+with hill climbing. But in some respects, it feels a little bit closer
+to a humankind of reasoning. We're looking for a peak, and in order to find that
+peak we'll see if we can find it by just moving
+upward wherever possible. Best-first search
+is an idea where you're searching a tree but every time you consider
+the next move you look to see which move
+appears to be the best. Now, notice that this idea
+just like hill climbing assumes that you have some metric for the
+goodness of a state. It assumes that when
+you're considering these three different
+moves you have a reason to prefer
+one to the other two. That represents knowledge
+about the problem. So the only time you
+could use an idea like best-first search
+is when you feel that you can rank order moves in the puzzle
+in a sensible way. I'm going to describe yet another technique
+called means-ends analysis. This has an
+interesting history in cognitive science because it was one of the early
+techniques for problem-solving studied both in human beings and in writing computer programs
+to solve puzzles. It too does not work
+in every situation. In fact it is fairly constrained in the kinds of
+situations that applies to. But it's readily representable
+in a computer program, and it applies to
+certain kinds of puzzles or problems that
+we sometimes run into. I'm not going to give
+you a coded version of means-ends analysis, but I'll try and give
+you the flavor and pros. This was investigated early on by the way by Alan Newell and Herb Simon in the early years
+of artificial intelligence. So the basic idea behind
+means-ends analysis is you are in a particular
+state of a puzzle or problem. You want to get to a goal state. You first look at what appears to be the biggest
+difference between you, and your current state, and the goal state. If you can do something that will reduce that difference
+right off the bat you do it. On the other hand, if you can't find
+anything to do to reduce that difference you see if there's something
+else that you can do that will reduce
+the difference between your current state and a position in which you can attack the biggest difference. So there's a recursive element to this means-ends analysis. Let me say this again. The idea is you look
+at your current state, you look at the goal, you say what's the
+biggest difference between me and the goal. If I can attack that
+right now, let me do it. If I can't, let me pose a new problem which is
+getting to the point where I can attack it and try and solve that problem
+by means-ends analysis. It's an inherently recursive
+idea and it's encoded form, it's actually a beautifully
+elegant program. It's close to certain puzzles
+I have always felt that the rush hour puzzle where you're trying to maneuver that red car. Can I point to it here? Yeah. The red car, you're trying to
+maneuver it out of the grid and the
+only way you could do that is by moving cars that are in front of the red car, so that you can eventually
+get it out of the grid. So when you try to solve
+the rush hour puzzle, you find yourself
+saying things like, if I could move the car
+directly out I would do that. But I can't because there are a couple
+of cars in the way. So my new problem is getting
+those cars out of the way. Let's see if I can get
+those cars out of the way. If I can't it's
+presumably because they're being blocked
+by still other cars. So let's see if I can get
+those out of the way. That's a technique for solving
+rush hour at least for some puzzles and it has the flavor of
+means-ends analysis. Now, for computer scientists, when we try to write algorithms for searching
+problem space graph, there are standard issues
+that always come up. They're not exactly the
+issues that always come up when we think about us as human beings trying
+to solve problems, but they resonate a little bit at least with some
+of the human issues. One problem is we'd like to have a search technique that is guaranteed to find a
+solution if there is one. So taking for example
+are 15-16 puzzle, if there is a solution, then because it's a finite graph, if we implement either depth-first or
+breadth-first search in a reasonable way, and again I'm sweeping a
+little bit under the rug. But if we do this with
+reasonable cleverness either of those two week
+methods is guaranteed to find a solution
+assuming there is one. The next, some search algorithms may not
+be complete in that sense. They may be interesting
+for other reasons, and they may be promising. But they may not be guaranteed
+to find a solution. Obviously, if we have
+an algorithm that was guaranteed to find the solution that's
+of some value to us. A second issue is how long is
+this going to take to run? If we are going to
+find a solution, is it going to take a minute, a year, a century, that too is an issue about creating the
+search algorithms. We may have a vast problem
+space and searching that problem space
+for a solution we may be guaranteed to find a
+solution but it may take years. In which case we have other
+problems on our hands. We might want to for example, find an approximate solution, or see if we can find a better search algorithm
+that will take less time. Similarly, in computer science along with time there
+space considerations. So memory is a good deal
+cheaper than it used to be but it's still
+finite in any computer, and so we don't want to write
+a program that will take an infinite or an astronomical
+amount of memory. We would like to write
+a search program that will only use up a relatively small
+or measurable amount of memory as the algorithm runs. That too can sometimes
+be a problem. Finally, there's an
+interesting issue that deserves mentioned here. Our algorithm may
+find a solution, but it may not find
+the best solution. Take for instance
+solving Rubik's cube. You may be given a
+scrambled Rubik's cube and it may turn out that the quickest solution to this scrambled Rubik's cube
+takes four moves. You could unscramble
+it in four moves. Your computer program,
+your search algorithm, finds a solution to
+the Rubik's cube, but it takes 20 moves. Well, maybe you don't care. I mean maybe all you wanted was a path to solve the Rubik's cube. But this could conceivably
+be a meaningful issue to you where not only do you want the program to find a solution, you wanted to find by some
+measure the best solution. These are all things that computer programmers care about when we write search algorithms, and they have resonance with certain kinds of human
+problem-solving activities, but the connection is not
+always straightforward. There are other kinds of issues about solving problems
+that are worth mentioning, I don't want to finish the discussion of solving
+problems quite yet, but in this particular
+session or lecture, I would like to just talk
+about two additional issues about thinking of problems in this search space formalism. One is that the way that human
+beings solve problems or puzzles seems to involve more than just search or more
+than just immediate search, it seems to involve other
+kinds of things like looking for patterns in problems
+that we're solving. Let me give you an example
+of what I mean by that, this is a famous experiment
+that was done by Chase and Simon in the early 1970s. Here was the nature
+of the experiment, it was actually a
+memory experiment, they were looking to
+ask a question about the memories of chess experts
+versus chess novices. It has sometimes
+been suggested that one reason to study chess is that it'll improve
+your mental functioning, perhaps even improve your memory. So the Chase and Simon experiment was designed
+to test that question. Do chess experts have better
+memories than chess novices? The way that they did
+this test was they showed both chess experts and chess novices sample chessboards
+with pieces on them, like the one in this slide. So they showed both the expert and the novice a chessboard like this one with pieces upon it and they only showed it to them for a limited
+amount of time, matter of seconds I believe, then they asked both
+the chess novice and the chess expert to see how well they could recreate
+the board from memory. Okay. Now, in principle, if a chess expert has a far better memory
+than a chest novice, he or she will be able to recreate the board
+much more accurately. Here's what they found, it was quite interesting, what they found is that, if the chessboard had arrangement of pieces that was
+taken from an actual game, from a real gameplay, then indeed the chess
+expert was much much better at recreating the
+board than the novice. If, however, the
+chessboard just had a random scattering of
+pieces in various places, the kind of situation
+that you would never actually see
+in a real game, then the chess expert
+and novice were equally, I guess equally bad, at recreating the chessboard because they were comparable. Okay. The meaning of the interpretation of
+this experiment is that the chess master has better memory of real chessboards because when he or she is playing a game they're
+not just interpreting the game position as a
+random collection of pieces, they're interpreting
+the board in terms of larger concepts of chess play, maybe a pawn arrangement, or whether a king
+has been castled, or who's getting
+control of the center, or which pieces are threatened. Those are larger scale notions that inform the way that a
+chess master looks at a board, they're not available
+to a chess novice. But when a chess master
+has to recreate a board, he or she is thinking in terms of these larger scale patterns. That too would be applicable
+to other kinds of problems, where, for example,
+this has been studied in problem solving in physics, where physics experts
+are able to look at a problem and grasp certain
+concepts in the problem, larger patterns that are
+unavailable to the novice. So that's one issue we would
+like as we're thinking about writing machine
+models of problem solving, we would like to think
+of ways of grasping higher level patterns
+about certain problems. Another issue and this is the last one I'll
+talk about is that sometimes it's tricky to determine how to think
+of a problem space. This is a fantastic
+little puzzle that way. Because it's a fantastic puzzle, I'm going to describe it to you enough links that
+you can think about it. Here's the idea, if you
+take a standard chessboard, eight by eight chessboard, and you're given the
+problem of tiling that chessboard with 32 dominoes, that isn't very hard. What you could do, for instance, is take the chessboard and
+then place four dominoes in each row or four
+dominoes in each column. When I say tile the
+board with dominoes, what I mean is place the 32
+dominoes on the 64 squares in such a way that the dominoes are covering the entire board
+and they don't overlap. There are all kinds of
+ways of doing this and you can see that there are all
+kinds of ways of doing it. That, as it turns out, is not a hard problem. Now, we set a slightly
+variant problem. Okay. This is called the
+mutilated chessboard problem, we take away the opposite
+corner squares of the chessboard leaving a board with only 62 squares on it. So as you see in the slide here, we've taken the upper
+left and the bottom left square out of
+the chessboard, now, there are 62 squares
+left in the chessboard. The question is, can you tile this mutilated chessboard
+with 31 dominoes? So can you take 31 dominoes
+and lay them out on this chessboard in such
+way that they'll cover the entire thing and
+they won't overlap? Now, this is interesting, when I pose this question to computer scientists what
+they often do is they imagine writing a
+program that will systematically search
+all the possible ways of laying down dominoes on a 62-sized mutilated chessboard, and they'll try to imagine
+ways of doing that systematically and trying
+every possibility. You could do that, I
+mean such a program could be written, however, there's an immediate way of
+seeing that the answer is no, it cannot be done. The reason for that answer when you think about it is this, every domino that you
+placed on this chessboard has to cover one black
+and one white square, whether you place it vertically
+or horizontally it's going to be covering one
+black and one white square. Therefore, if we put
+down 31 dominoes they should cover 31 black squares
+and 31 white squares. In this mutilated
+chessboard, however, we've subtracted
+two white squares, so the board, as left, has 32 black squares
+and 30 white squares. Once we place 30
+dominoes, therefore, we will have covered all the white squares
+and there will still be two black squares
+leftover, can't be done. This is, in fact, it's what could be called a
+parity problem, P-A-R-I-T-Y, a parity problem because
+every domino has to reduce the size of the
+available puzzle by one black square and
+one white square, and so we can't do that. In order to see that though, we have to think of the problem
+space in different terms. The sort of automatic brute
+force way of thinking of the problem space
+would lead us to this vast search algorithm. A different way of looking at the problem space would lead
+us to an immediate solution. So this is an
+interesting instance of the limitations of the unthinking
+problem space approach, in order to look at a
+problem in a creative way, you may have to think about the problem space in ways
+that are non-obvious.
