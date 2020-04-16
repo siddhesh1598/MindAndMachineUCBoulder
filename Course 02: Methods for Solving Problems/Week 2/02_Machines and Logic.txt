@@ -1,0 +1,262 @@
+One of the more
+pointed comparisons between the ways that people think and the way
+that machines think, has to do with debates and discussions
+around the theme of logic. Logic is a very broad term. Logic in general actually
+refers to a tradition of thinking that goes
+back to at least as far as Aristotle who
+wrote about logic. Aristotle's portrait of logic
+centered around syllogisms, patterns of reasoning like, all men are mortal. Socrates is a man. Therefore, Socrates is mortal. You've probably heard these
+kinds of syllogisms before. Syllogisms were the mainstay of logic for a very long time. But logic over the past
+couple of centuries has expanded and changed and grown more expressive
+in a lot of ways. The discussion having to do with machines and minds often
+centers on this idea that machines are
+particularly logical or the ways in which computers can think is especially logical. That's a complex question. We can program computers
+in ways that are less rigidly logical than we often associate with computational information
+processing or thinking. That is to say, we can program
+computers so that they can behave a little less rigidly, a little less formally, a little less
+strictly according to the rules of established logic. Nonetheless, logic fits well, it lends itself to computational implementation
+at least in a lot of cases. So let me begin not quite at the beginning but with the
+beginning of modern logic. So I mentioned discussions of
+logic go back to Aristotle. For our purposes,
+modern logic starts with a book by the English mathematician
+George Boole called The Laws of Thought. It's a very difficult
+and challenging book, in part because
+Boole was thinking out all these ideas on the page. So it's not the best
+Introduction to ideas of logic. In fact, in Boole's book he mixes different formalisms
+from things that today would be referred
+to as Boolean logic, that is logic having to
+do with ones and zeros. Propositional logic,
+that is logic based on the idea of manipulating
+true or false sentences. Finally, set theory. All of those things are mixed in in Boole's book and that makes it rather
+difficult to read. The explanations often shift
+from one domain to another. All those topics are in
+fact closely related. But Boole's treatment
+is difficult to read. So I wouldn't advise
+picking up Boole's book to learn about propositional logic or Boolean logic or set theory. I wouldn't advise reading
+it for that purpose. But it's an interesting book to read once you have
+learned something about the modern formalisms of logic to go back and see
+where those ideas began. In that event, we'll focus for the time being on
+propositional logic. So in propositional logic, the idea is that letters
+or symbols stand for entire propositions
+that can be true or false. Like five is a prime
+that happens to be true. Paris is the capital of Italy, that happens to be false. Think of P and Q and R and other symbols here as representing
+declarative sentences, the easiest way to
+think about them, that could either be true
+or false but not both. Now, propositional logic
+allows you to reason with sentences of that kind by combining them with what
+are called connectives, like and and or, if then and then doing certain fairly
+straightforward reasoning using the propositions and the sentences that
+you've asserted. I've just got one
+teeny example here. I'm not going to go into
+propositional logic in depth. If you haven't seen it, you don't need to
+know it in depth for the purposes of
+this discussion. But this is the kind of reasoning that gets done
+in propositional logic. So you have a bunch
+of assertions. You have a bunch of sentences
+that you say are true, we're going to treat as true. Then from those sentences, we will see what else we can deduce that should also be true. So in this case, we've asserted three things. Number one, we've
+asserted if P OR (NOT Q). That is to say, if
+it is the case that P OR (NOT Q), then R. Again, what the meaning of P and Q and R should be depends on the
+use of propositional logic. When you're using it, you might substitute for
+P and Q and R things that make sense in this
+particular form of reasoning. For our purposes,
+we're just leaving these as uninterpreted symbols. We're just stating
+as a given that if P OR (NOT Q) is true, then R is true. We also are given, we are told that Q is
+true and that P is true. From those three sentences, we can deduce still
+other true statements. For example, sentence four tells us since we
+know that P is true, we also know that P
+OR (NOT Q) is true. We didn't even use
+sentence two in this case. But from sentence three, we can deduce that
+since P is true, it must be the case
+that P OR (NOT Q). Now, one thing I should
+mention is that in standard propositional logic OR is interpreted as what we
+would call inclusive OR. P OR (NOT Q) is a true statement. If P is true, if (NOT Q) is true, or if both are true. So the OR here is inclusive as opposed
+to the exclusive OR, which is usually written
+X OR and which is only true if one or the
+other but not both are true. In this case, it happens in
+the case of sentence four, it happens to be the case. We happen to know that P is
+true and (NOT Q) is false. Still P OR (NOT Q) is true. So this would be true
+regardless of whether we had. In this case, we
+could interpret OR as inclusive or exclusive OR
+but for sentence four, we've written it with
+an inclusive OR. Sentence five then follows
+from sentence four and one. We know that P OR (NOT Q)
+is true from sentence four. Therefore, plugging
+that into sentence one, we can deduce that R is true. Because if P OR( NOT Q)
+is true then R is true. You may notice that
+this feels like a very formal and round
+about and effortful way to deduce things, and indeed it is in practice. As I also mentioned though, computers are really
+good at this. So propositional logic does lend itself well to
+programmed implementation. There are many complications
+in doing that. But, yes, indeed
+computers are quite good at reasoning with
+propositional logic. So in this sense, this is a logic that
+machines do well with. But even as we're
+talking about this, think of the title of Boole's book which we saw
+in the previous slide. Boole's book was called
+The Laws of Thought. He was writing in the 1850s before there
+were any computers. The way that he regarded logic
+was that this is the way, not only that thinking should be, but in a sense, good thinking is that
+people reason with propositional logic and that they should reason with
+propositional logic. So the discussions around
+logic as applied to people are often an uneasy mix of
+descriptive and normative. Sometimes people want to
+argue that we do think logically and sometimes
+people want to argue that, even if we don't, we should. This is a good way of thinking. It certainly lends itself well to machine reasoning in
+many cases, not in all. But it often lends itself
+well to machine reasoning because it follows
+sets of formal rules, that for people can
+often be stressful to follow in ways that
+are free of mistakes. We often make mistakes. Machines when suitably programmed can be very effective
+at doing this. You may have noticed that
+even in this reasoning, I made use of a certain
+deductive steps. In propositional
+logic a number of these standard deductive
+step is called modus ponens. It's a very old rule in logic. Basically, it says that
+if you know that if A, then B is true, if you know that that's true
+and you know that A is true, then you know that B is true, sounds pretty straightforward. So the example on the slide, if there is fire there is smoke. We know there is fire, therefore, there is smoke. An equivalent rule that is to say equivalent to modus ponens means really the very same thing, but it goes by a different
+name modus tollens. It has a different
+syntactic structure where we can say,
+if there is fire, there is smoke and we
+know there is not smoke, therefore, there is not fire. Because if there were fire,
+there would be smoked. Now, to a machine, these two rules are
+essentially identical. By the way, I've mentioned the difference
+between inclusive and exclusive or I should mention that in
+propositional logic, if A then B means
+something very specific. In English, we often use if-then sentences in a
+looser informal way. But in propositional logic, when you say if A then B, what you mean is, that will be true if A
+is true and B is true, it is also true if not A is true, and B is either true or false. In other words, let's
+take this first sentence, if there is fire, there is smoke. If there is fire
+and there is smoke that a good step
+for modus ponens. If there is not fire, we don't really know whether
+there is smoke or not. Or to put it another way, the only way that the
+sentence if there is fire there is
+smoke could be wrong, the only way that sentence
+could be false is if it is the case that there is fire
+and there is not smoke. That would prove
+the sentence false, all other three possibilities,
+fire and smoke, not fire and smoke, not fire and not smoke would allow the
+sentence to be true. So in propositional
+logic classes, people are very careful about interpreting
+if-then sentences. For example, the sentence if Paris is the capital of Italy, then two equals five. That is a true sentence. The first part of the if-then sentence is false
+and from that point, it doesn't really matter whether the second part is true or false. If Paris is the capital of Italy, then five is a prime. That's also true because
+the first part is false. The only version of an if-then statement that can be false is if I say something like, if Paris is the
+capital of France, then two equals five. That's a false statement because the first part is true but
+the second part is false. But we have to be
+that long winded to explain the nature of if-then in propositional logic as
+opposed to colloquial English. Modus ponens and modus
+tollens are both totally perfect deductions
+from two earlier sentences. They only have a
+slightly different, I should say,
+syntactic structure. For a machine, these two things
+are essentially the same. For a person, they're
+not quite the same. People find it much
+easier to reason using modus ponens than they
+do using modus tollens. So that already
+should give us a hint that the ways in which typical computer programs deal with propositional logic and the ways in which
+people often informally deal with logic already have
+some differences to them. People also are prone to
+make mistakes in this logic. So these are two examples
+of fallacies in logic, deductions that are not true. But that are tempting often because of the way we think of an if-then statement. So if we have a sentence like, if there is fire, there is smoke and then we're
+told there is not fire, it is not correct to
+deduce that there is not smoke because after all there might be smoked for
+other reasons than fire. So this is called denial of the antecedent fallacy and this is a form of faulty reasoning. So is the second example. If there is fire, there is smoke and we know there is smoke, therefore, there is
+fire, incorrect. Again, there could be smoked
+for other reasons than fire. So these are both examples of problematic or incorrect uses of logic that people are prone to. There are other logical mistakes, that people are
+not prone to make. But the fact that we
+are prone to make certain logical mistakes, again, tells us that there's
+more to human reasoning than is expressed in the
+formal rules of logic. Even though Boole wanted to call his book The laws of thought. Propositional logic doesn't seem to be the laws of thought. It seems to be an element of a formal representation of certain kinds of
+effortful thought, but we don't follow the rules of propositional logic
+terribly faithfully. There's a classic experiment around these lines that was
+done back in the 1960s. I will give this to
+you as an example. Here is the experiment. People are told that
+they're given four cards. I've represented the four
+cards here in the slide. They are told that on
+one side of the card is a letter and on the other side of the
+card is a number, okay? Then you are given a rule
+which your job is to test. You want to test this rule to see whether it's
+true or false, okay? So the rule that you're going
+to be given to test is, if there is an even number
+on one or if excuse me, if a card has a
+vowel on one side, then it has an even number
+on the other side, okay? So let me repeat that correctly. If a card has a
+vowel on one side, then it has an even
+number on the other side, and you are asked, given this set of four cards
+to turn over exactly and only those cards that you would need to test whether
+this rule is true. So this takes some thinking when people do it and
+they often make errors. I don't quite recall
+the statistics, but many many people make
+errors and in this task. As it turns out, you need to turn over
+exactly two cards. You need to turn over the E. If the card has
+a vowel on one side, then it has an even
+number on the other side. If you turn over the E and
+you find an odd number, you know the rule is false. The other card that you have
+to turn over is the seven. If you turn over the seven and you find a vowel like an A, then you know the rule is false. The other two cards, you don't need to turn over because no matter what you
+see on the other side, you won't learn anything about the truth or falseness
+of this rule. You won't learn
+anything about whether the rule happens to
+be true or false. If you turn over a K, then regardless of
+whether there's an even or odd number
+on the other side, doesn't tell you anything
+about this rule. If you turn over the four, maybe you might see a vowel that would be inconsistent
+with the rule, but you may see a consonant that would also be
+consistent with the rule. So the only cards that
+you need to turn over are ones that could
+disprove the rule. In a sense, this is a
+little bit a tiny model of some philosophical
+treatments of scientific reasoning in
+which the purpose for experiments is to
+disprove a theory. Most scientists don't
+feel that that's an accurate representation
+of scientific pursuit. But nonetheless, some people argue that when you
+do an experiment, it should be with an eye
+toward disproving a theory. In this case, turning
+over the E or turning over the seven
+could disprove this rule. Turning over the other two could do nothing to disprove it. As I said, people have a lot of difficulty with this problem. But one interesting
+thing is that they have far less difficulty with a what in some sense is
+an identical problem, an identically
+structured problem. But in this case, people have a much easier
+time solving the problem. The distinction between
+people's performance in these two cases is
+interesting to speculate about. So here's the new task. You're given four cards. Usually, people say, imagine yourself as a bartender
+or something like that. You're given four cards. On one side of the card is the drink that a
+person is having. On the other side of the
+card is the person's age. Your job is to see whether
+this rule is true, that or if you want to
+phrase it this way, whether this law is being upheld. If a person is drinking beer, then the person must be
+over 19 years of age. Your job is to turn over only and exactly
+those cards that will show whether the rule
+is being held to. Here, people have a
+much easier time. You turn over the
+drinking beer card. If the age on the
+other side is 16, then the rule is being violated. You turn over the
+16-year-old card, if the person is drinking beer the rule is being violated. The other two cards, you don't need to turn over, regards because for example, turning over the
+drinking coke card can tell you nothing about whether the rule is being violated, similarly with the
+22-year-old person. So why is it that
+this task seems to be so much easier than the previous task involving
+letters and numbers? There are different
+explanations for this. There's not a unique
+explanation to it. The original experimenters who presented this version of
+the card task would make an argument that goes
+roughly as follows: we are very good reasoners when it
+comes to situations that are ecologically or
+evolutionarily realistic for us. Now, you might say being a bartender is not
+evolutionarily realistic, but seeing whether laws
+are being followed, seeing whether rules are
+being obeyed or violated, that is a very, it's venerable human activity. In communities, we often care quite a bit about whether
+people in a community are obeying the group laws
+or whether they're not. So in this case, the we might say that
+we're exercising not so much a kind of
+abstract talent for a logic, but a rather specific talent or rather specific human ability to detect cheaters in
+legal situations. That's not the only explanation
+for this distinction, but it's one explanation. In any event, just to leave you with this
+sort of reflection, what we've seen is
+that the ways in which people reason
+in situations that could be modeled logically
+doesn't seem to be quite the same as the ways in
+which the rules, the formal rules of
+logic dictate or pure mathematics
+dictates or in fact, the ways in which it is relatively easy to
+program machines. Machines can be made to
+follow logic reliably. For us, it seems to
+be more of a problem.

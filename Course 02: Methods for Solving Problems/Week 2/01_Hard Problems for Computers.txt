@@ -1,0 +1,272 @@
+For many problems, computers are extremely good
+at solving them. They're good models of how to
+go about solving problems. In some cases, they
+solve certain types of puzzle problems more
+effectively than people do. Because they make use of a
+problem space representation, they're systematic, and such, and they can often solve certain kinds of
+what I might call stereotyped puzzle problems
+much more quickly. In some cases, more effectively, more quickly, and finding optimal solutions in ways that people find difficult to do. But not all problems have this flavor of being able to be translated
+into a problem space. That is to say, some
+problems are difficult in interesting ways both for
+people and for machines. It's interesting to take a look at these
+kinds of problems. Both because they
+compel us to ask questions about our own
+techniques for solving problems, and also they compel us to look at computer
+programs and think about new and creative ways of implementing problem-solving
+strategies in computers. So rather than stick with the tried and true
+problems space approach, let's look at some
+examples that in one fashion or another
+challenge that approach. Here's an example, we've talked about if you've watched some
+of the previous discussions, we've talked about techniques
+by which computers can solve certain kinds of puzzle problems
+like Rubik's Cube, or the famous 15-16 puzzle, or the Rush Hour puzzle, other kinds of things like that. This is another sort of puzzle that you can
+get at a puzzle shop. These are topological puzzles, they come in various
+forms: rings, or wires, or things like that. In general, the structure of these puzzles is that
+you have to take them, they're physical objects, and
+then you have to manipulate them in some way to separate
+pieces or reconnect pieces. They're often quite difficult. It's an interesting question
+to ask how you would get a computer to go about
+solving a problem like this. It doesn't seem to fit terribly naturally into the
+problem space formalism. That is, it's often not clear when you pick up
+one of these puzzles, what constitute the
+distinct states of the puzzle and what
+constitute the legal moves. In a case like Rubik's
+Cube or the 15-16 puzzle, it's very clear what the distinct states
+of the puzzle are. They are the arrangements
+of the cubes, they are the arrangements
+of the tiles in the box. You can pretty much say what it takes to make
+a distinct move. Slide a tile in the
+15-16 puzzle or rotate one plane 90 degrees counterclockwise or clockwise in the case of Rubik's Cube. All well and good. With a puzzle like this though, it's a little tricky to say
+what are the distinct states. If I take one of these
+objects and move one of the rings just by say
+half a degree in space, just rotated around
+say a vertical axis, is that a new state
+of the puzzle? Have I executed a legal move? It really seems that when you
+look at puzzles like this, the difficulty, the
+essential difficulty is finding out what the states are, what constitute the meaningful
+states of the puzzle, the positions of the rings, and usually from
+that point the moves are not so hard if you
+know what the states are. But knowing the states is
+the difficult part of this. So this is the kind
+of puzzle that challenges our usual notion. Thinking about how to get a computer to solve
+a puzzle like this, some people are
+exceptionally good at it, but thinking about how to get a computer to solve a puzzle like this would be a really
+interesting challenge. There are other kinds
+of problems that are in a sense kind
+of standard problems, they show up in in math books, or they show up in
+mathematics exams, or they show up in interviews
+for tech companies. Often these are problems that require a certain amount of creativity and
+flexibility to solve. If you've ever taken one
+of these: Math Olympiads, or Putnam exams, or
+things like that, then you know that problems of this sort can be
+quite challenging. Assuming you can
+solve them at all, they may take you days to solve, they may take a long
+time to think about. Again, it's hard to see
+how they could be easily translated into the the
+problem space formalism. So here's an example I got from a wonderful book called How to Solve It:
+Modern Heuristics. In a moment we're going to see another book called
+How to Solve It, but this is a newer book
+with a similar title. I'll just read out the puzzle. Mr. Smith and his wife invited four other
+couples for a party. When everyone arrived,
+some of the people in the room shook hands
+with some of the others. Of course, nobody
+shook hands with their spouse and nobody shook hands with the
+same person twice. After that, Mr. Smith asked everyone how many times
+they shake someone's hand. He received different
+answers from everybody. The question is: how many times did Mrs. Smith shake
+someone's hand? So it's a well done puzzle
+because in this sense, it's a little bit
+like Rubik's Cube, and then it's well constructed. The way that it's written is intrinsically
+curiosity-provoking. Say you're reading this puzzle, and then you get to
+the final question and it didn't even mention Mrs. Smith
+up until this point. All we know is that she's
+married to Mr. Smith, but it doesn't seem on the surface to be any
+information about her. But this is a well-formed
+problem and you can solve it. I don't think I'm going to
+solve it right here on screen, I will let you ponder this. But the kind of techniques that you would use to
+solve a puzzle like this are what are described
+in a wonderful book that came out in the 1940s by the mathematician
+George Polya. It was called How To Solve It. It's still in print. It's been reissued
+many many times. It's a classic and I couldn't recommend
+a book more highly. There have been follow-ons to this book along similar lines, that is books that also talk about problem-solving
+in this way. They often have new
+contributions to make, but this is a great book to start with if you're interested in the art and craft of solving problems of
+the kind that I just showed. Now, Polya, I don't know
+but he invented but he certainly popularized
+the word heuristic, meaning a rule of thumb, a strategy to try in solving
+a puzzle or a problem. Not guaranteed to solve the
+puzzle, but often helpful, often the thing that you should have in your
+bag of tricks, that you should have
+in your repertoire. Some of the heuristics that
+he mentions are things like, if you see a problem like
+the one about Mrs. Smith, do you know a related problem. Maybe if you know
+a related problem or one that seems similar, and you've already solved that, maybe that solution will
+help you with this one. Or did you use all the
+data in the problem? Did you make use of all the things that were
+presented in the problem? That's a feature in a way of artificial problems like the
+Mr. and Mrs. Smith problem. It's in the real world, sometimes we're
+faced with problems where we may get extraneous data. We may get data that
+we don't have to use. But in this well-formed
+math exam type problems, they play fair and if
+they give you data, then presumably they're
+giving it to you because it's going to be
+needed to solve the problem. Once you solve it, can you use the answer
+for a related problem? In the case of the Mr.
+and Mrs. Smith problem, the advice of drawing a figure I think is
+especially helpful. If you draw a figure, just doodle out a figure that you think might help
+you solve this problem, and it may do very well. Then Polya mentions some other typical
+strategies of proofs like reductio ad absurdum or induction or decomposing
+the problem into subproblems, dimensional analysis is a very helpful
+technique for solving physics problems where you can just reason about the dimensions of the quantities involved. But in any event, these
+are good basic techniques for finding proofs or solving
+problems, and so forth. Some of these I
+think are extremely useful for at least, as I say, at least they draw
+a figure piece of advice is extremely useful for thinking about the Mr.
+and Mrs. Smith problem. There are other
+problems that I think are interesting to think
+about in this light. Again, they lead
+to new ideas about how you would program a computer to solve
+a problem like this. So here's, maybe you could
+call it a physics problem. It's a problem about
+objects in the real world. So imagine, you
+could actually try and do the experiment
+if you want. But before you do the experiment, think of this as a problem
+that you can solve in your head, a thought experiment. So imagine two quarters side-by-side as shown
+in the picture here. Now you take the
+quarter at the right, the one which has the head
+side up, and without slipping, carefully you roll it
+around so I could reach, roll this quarter around, the quarter with
+the tail side up. The tail side up quarter remains stationary
+the whole time. So once you've rolled this head side of
+quarter to the opposite, to the left side of the picture, which way will George
+Washington be facing? Now, that's an
+interesting question. The way that we tend
+to solve questions like this is through, well at least the way
+that I would try to solve a problem like this is through a mental imagery, a dynamic mental imagery. Mental imagery that
+executes animation. That's a very different
+programming than the programming that
+would be involved in trying to represent this as a problem space with moves. To solve a problem like this, you would want to certainly to write a program to solve
+a problem like this. You would want to
+get a computer to be able to take sample animations or sample pictures and animate them in realistic ways
+to get an answer. That would be, and that represents a certain research
+in computer programming, but it represents a
+really interesting new way of linking human problem-solving with
+machine problem-solving. Again, should I give
+you the answer to this? No, I'm not going to give
+you the answer to this. What I would say is you should try and think about this
+problem in your mind and then see if you get an answer by trying the experiment on
+the desk with two quarters. Here's another, this is a more straightforward
+physics problem. So this is a physics
+problem that you might get in the introductory
+physics class. So imagine you've
+got one of these, physicists apparently love
+these frictionless tracks and elastic collisions meaning that energy is conserved and momentum is conserved,
+and so forth. So imagine that you have
+a frictionless track, a ping-pong ball, it's
+rolling to the left, my left at one centimeter
+per second and a bowling ball is rolling to the right at once
+centimeter per second, and they're going to collide and then after the collision, they will have new velocities. So a totally elastic collision. Now, I don't even
+know if these are realistic numbers for ping-pong
+balls and bowling balls, I think a ping-pong ball
+is well over a gram. But let's just say for
+the sake of argument that the ping-pong ball
+is one gram in mass, and the bowling ball is
+10,000 grams in mass. So now, you have all the
+information that you need to solve for the
+final velocity of both the ping-pong ball and
+the bowling ball if you use the fact that energy is conserved and
+momentum is conserved, overall momentum is conserved. Well, you could do it that way. Would take a fair
+amount of algebra. There's a much more
+straightforward, a little bit approximate, but much more straightforward way of thinking
+about the problem. I won't go through
+the numbers for it. But think about it
+in these terms. You have the ping-pong ball. See if I can draw this out. Oops, you have the
+ping-pong ball. I wish this wouldn't
+happen. Hold on. Here we go. You have the
+ping-pong ball going off like this and the bowling
+ball going off like this, and this is one gram, and this is 10,000 grams. Okay. They're about to collide. Now, think of it from
+the physical standpoint. From the viewpoint of
+the ping-pong ball, the bowling ball is
+much, much bigger. If you were arriving
+on the ping-pong ball, it would feel to
+you as though you were smacking into a wall. So if the ping-pong ball were just smacking into a
+wall, a stationary wall, then we know that- well, in this case, the
+wall is not going to change its velocity, but the ping-pong
+ball with energy being conserved would move off at one centimeter per second in the opposite
+direction after the collision. In other words, if you
+think of what's going on as a ping-pong ball at one
+centimeter per second. Colliding with a massive wall, it will just bounce off and
+go at the same velocity. Well, this situation is the same if you think of it from the ping-pong
+ball's point of view. So one way to reason
+about this is to reason from the frame of reference of the bowling ball. Imagine that you
+are in a frame of reference in which the
+bowling ball is stationary, so you're in a frame
+of reference that is moving one centimeter
+per second to the right, but in that frame of reference, the bowling ball is stationary
+and the ping-pong ball is headed for you at a velocity of two
+centimeters per second. After the collision,
+the bowling ball will still be
+stationary essentially. Yes, it will have a little
+velocity but a tiny one. The ping-pong ball will be going off at two centimeters per second to the left in this
+new frame of reference. So using that kind of thought, you can solve a physics
+problem like this. But the step of being able to see that you can make that approximation is the
+interesting thing here. That is to say what's interesting is not the
+numerical solution. What's interesting is
+looking at a situation like this and seeing that
+you can get a quick, if not perfect answer, by making a little change in the way you
+represent the problem. That's an interesting
+human problem-solving. Again, trying to get a computer to be able
+to do this problem solving would be a creative act. This would take new directions in
+computer problem-solving. Finally, you've already seen this slide by accident
+a little bit, but now I'm going
+to unveil it, okay. So this is a wonderful
+problem from William Poundstone's book,
+Labyrinth of Reason. There're a number of
+problems like this. Where you see problems like
+this and this is actually, in a sense, it's a
+well-formed problem. That is there is an answer
+that you can give to this. So let me just read this out. A man gets an unsigned letter telling him to go to the
+local graveyard at midnight. He does not generally pay
+attention to such things, but complies out of curiosity. It is a deathly still night, lighted by a thin crescent moon. The man stations himself in front of his family's ancestral crypt. The man is about to leave when he hears scraping footsteps. He yells out, but no one answers. The next morning, the caretaker finds the man dead in
+front of the crypt, a hideous grin on his face. The question is, did
+the man vote for Teddy Roosevelt in 1904
+US presidential election? Now, this is a weird problem, but there are a number of problems of this
+form. They're fun. You have the information to give a cogent answer
+to this problem. Unlike the kinds of problems
+that Polya talks about, there is a fair amount
+of extraneous data here. There's stuff that is there
+to not exactly to lead you astray but stuff within the story that is not relevant to the
+solution of the problem. There's a little bit that is relevant to the
+solution of the problem. Even then, solving the problem requires a certain amount of background knowledge of a
+kind that not everybody has. In other words, to answer
+this problem in the way that is intended for these
+kind of problems. By the way, I'm not going to
+give you the answer again. But if you have some
+gamesmanship about this problem, you sense that the
+answer must be no, he didn't vote for
+Teddy Roosevelt. But there's got to
+be something in the phrasing of the problem that indicates why
+the answer is no. Either this had to take
+place at a different time. The guy couldn't have
+been alive in 1904. It's taking place
+outside of America, so he couldn't have devoted
+for Teddy Roosevelt, etc. So there's something going on in the presentation of the
+problem that is telling you no because I find it difficult to imagine how this information
+could prove that he did, could prove that
+the answer is yes. So you know the answer is no, but why the answer
+is no, it's tricky. Anyway, solving a problem like this requires a lot
+of background knowledge. For problems of this kind, the background knowledge
+may come from all over, may come from all kinds
+of different domains. Moreover, you have
+to search within the the narrative to see what things are relevant to
+solving the problem. These kinds of problems
+that we've talked about in this discussion today are all problems that
+represent challenges for computational versions
+of problem-solving. When we talk about
+machines and minds, different ways and in similar ways in which
+machines and minds operate, these are interesting objects
+to think with because to get a computer to approach
+problems like this, and in different cases, people are working on topics
+related to these ideas. But to get a computer to approach problems
+like this requires interesting creative
+new approaches beyond that of the problem space.
