@@ -1,0 +1,281 @@
+We've spent some time talking about the computational view of problem-solving that is in contrast and in comparison to the way that humans
+solve problems. We've looked at how understanding problem-solving
+in machines can lend new insights into how we understand
+problem-solving in people. Many of the problems
+that we looked at in that earlier discussion had to do with things like puzzles, or fairly abstract
+mathematical problems, or problems in the
+physical sciences. Those are very important
+types of problems that we often have to solve
+in a professional way. But now, we're moving to a
+discussion of other kinds, you might call them
+problem-solving, but in the literature, they usually go by the names of tasks and judgment
+and decision-making. Now offhand, there are
+some gray areas between what we might call judgment
+and decision-making on the one hand and problem-solving
+on the other hand. So if we had to judge, let's take some
+archetypal situations which were thought of as
+judgment or decision-making. You are in the market
+to buy a new car. So which car are
+you going to get? That's a decision-making problem. You have a number of
+distinct models of car. You could get a used car, you get a new car, you could get cars of
+different makes and so forth, which car are you going to get? That's a decision-making problem. You might also think
+of it as a problem. You're going to
+search the space of choices that you could
+make and make one of them. But often, we don't
+think of these, the Rubik's Cube
+or puzzle problems in the same way that we think of decision-making
+problems. For one thing, decision-making in the literature usually has to do with situations
+that are broad, that are perhaps a little less well-defined than chess
+problems or Rubik's Cube, situations where we may have
+to make a decision with incomplete information or
+fairly quickly situations, where maybe the information you might think of
+it as incomplete, or you might think of it as just so enormous that we can't take into account all of the potential information
+that we might have. We have to make some decision based on all kinds of
+different factors. These are situations, if we
+were being uncharitable, we might say that problem-solving
+situations are the ones that are less realistic in our lives and decision-making
+or judgment problems are the ones that often we
+care about in our lives. Should we take this
+course or that course? What should we major in? So having dated the person once, should we date them again? Is it worthwhile to
+invest in this house? All kinds of large scale
+important decisions in life get cast under this notion of judgment
+and decision-making. What that means also, because these situations are
+often more important to us, is that we don't have the general point of view
+about getting them wrong. Let me put it this way. If you're doing a Rubik's cube and you fail to
+solve the problem, you may be frustrated and
+it may matter to you. But you may, in talking
+to your friends just say, "I'm not very good
+at Rubik's cube. That's life. What are
+you going to do?" On the other hand, people don't feel
+that way about things like what they're
+going to major in, or who they're going to marry, or what city they're
+going to live in. People take those decisions
+pretty seriously and they don't take a light view of themselves if they habitually
+get these things wrong. So it's like, well, I keep choosing the
+wrong profession. That has a more
+important ring to it than I can't solve Rubik's cube. So when people talk about judgment and
+decision-making and the ways in which
+people make judgments, there's, I refer to it here as a normative stance as opposed
+to a descriptive stance. We're not only interested
+in how people solve problems or in this case
+how people make decisions, were also interested
+in the question of, are there continual mistakes or bad habits that come
+into our decision-making? Are those linked? Can those be elucidated by
+a computational viewpoint? By looking at these decisions and judgments from the
+computational standpoint, can we understand not only the descriptive reasons that we make certain decisions, but can we improve the way that we make
+certain decisions? That you could see the
+normative stances being important in classic
+problem solving as well. We'd like to learn how to solve Rubik's cube
+and things like that. But it takes on a
+more urgent note when we're talking about things like judging what
+subject to major in, or a potential spouse, or a potential city to live
+in or things like that. These are large-scale decisions often with lots and
+lots of factors, and we'd like to avoid
+making easy mistakes anyway. So some of the judgment and decision-making literature
+has this flavor of, what are the mistakes we make, and can we do better? Similarly, there's a distinction between problem-solving and
+judgment and decision-making, and again, that's not a
+hard and fast distinction. But a loose distinction between how we think of
+this evolutionarily, think puzzles, math
+problems, science problems, the staples of the
+problem-solving literature, those feel to us like
+evolutionarily recent situations. It's not like we
+evolved having to solve problems in logic
+or abstract mathematics. These may be still very
+important to us in our lives, but things of this sort don't seem to have deep
+evolutionary roots. On the other hand, there are situations in judgment that you could argue have
+deep evolutionary roots. If you are encountering
+a new person, a person that you
+haven't seen before, are they a friend or a foe? What cues might you use to
+determine whether to be nervous around this new
+person or whether to be fairly accepting
+of this new person? If you meet up with an animal, is it a dangerous animal, or is it an animal that
+does not pose a threat? Perhaps, it's an animal
+that could be prey for us. These are judgments that we make based on lots and
+lots of factors, and the idea of judgment and decision-making is that it's something that we as a species, we have evolved with
+certain ways of making these judgments and often these techniques that we've evolved with
+serve us very well. They've evolved for a reason. We survived because we had these techniques of
+making judgments. However, the techniques that
+we evolved with may not be perfect particularly
+for our situation now, that is, the situation
+of our species now in, say, urban or developed
+environments. So we'll talk about
+some of these things. Let me begin by giving an
+example of the kind that illustrates some of the themes that come up in the judgment and
+decision-making literature. So this is an example of what can be called
+problem framing. It's also an example of
+certain economic decisions, and you may think of
+it as still being mathematical, but it illustrates- You might call them prop difficulties that we have in
+making certain judgments. So imagine this is an offer
+that's being made to you. So you're being offered, first, a bonus of $300. I'm going to give you $300. Then you are asked to choose between the two
+following alternatives. One of the other alternative, one of the other possibility is what you're going to choose. Either to receive another $100, for sure, or to flip a coin. If you win the toss, you get $200, if you lose
+the toss, you get nothing. So you think to yourself
+what choice would you make. I've given you $300, and now I'm going to
+give you a choice between just take in another 100, or flipping a coin and receiving 200 if you win
+and zero if you loose. In either case, you
+keep the original 300. Now, a little bit if you know
+anything about probability, you know that the expected
+value of both A and B, both choices A and B is $400 at the end of
+the whole situation. In other words, in Situation 1, you definitely have 400, in Situation 2, you have
+a 50 percent chance of having 500 and 50 percent
+chance of having 300. So you might think offhand, there's no reason to
+choose between A and B, but that's not correct. You may have a very good reason for choosing A or B
+in this situation. The expected value of
+A and B is the same, but they're not
+identical situations. So think to yourself what you would choose in this situation. Now, here's a
+different situation. Let me pose this for you. I give you $500, and now I offer you two
+alternative possibilities. Possibility 1, I'm going to
+take $100 back from you, we'll call that C, and possibility D,
+you'll flip a coin. If you win the toss,
+you lose nothing. If you lose the toss, you have to pay $200. Now, think to yourself which of these two alternatives
+you would choose. Now, here's the
+interesting point. These two situations
+are, in fact, identical. The one that I showed you before, which I'll go back to here, that's really the very same
+situation as this one. In choice C here, you end up with 400, for sure, and then choice D, you have a 50 percent chance
+of having 500, and a 50 percent
+chance of having 300. That was the same case
+for choices A and B. They feel different though
+for a lot of people, and I confess this
+is true for me too. When you look at this choice, your mileage may vary, but I tend to look at this
+choice and think I'll go for A. I'll take the additional
+$100 and end up with 400. In this case, I think
+you just gave me 500, I don't want to just
+give you back 100, I'll gamble to keep
+what I've got. Now, again, there may be a very good reason for
+choosing A over B, or B over A. What there isn't is any rational explanation offhand for why you would choose
+A in this situation, and D in this situation. They are identical
+in the long-term. At the end of the day,
+they're identical situations, and we shouldn't
+switch our decision merely because of the way
+the problem has been framed. So this is an example
+of problem framing. For a lot of people, when they see an
+example of this kind, they get little bit
+disturbed by it, like thinking, "Well,
+what's wrong with me? Maybe there's
+something wrong with the way I'm thinking about this." This is taking
+advantage, by the way, of a well-documented tendency in people's economic judgments that they tend to value
+more the things that they already have as opposed to the things that they
+don't yet have, but can bargain for. So once you own something, once I've given you that $500, there's a greater threshold
+to giving up some of it. In the first situation, I gave you only $300, and the idea of getting an additional
+100 seemed attractive. This is one example of the interesting phenomena that turn up in judgment
+and decision-making. Here's a related one. You could call it a
+problem framing example. It's from a very fun book by cognitive
+scientists Dan Ariely. I think he describes himself
+as a behaviorally communist, but in any event,
+here's the situation. It's a problem framing. But this one is taken, I think, from real-life, he
+describes it in the book, and this is an ad that he saw about subscriptions to the
+magazine, The Economist. So notice the three choices
+that are being given here. The Economist, you could
+get a subscription to the website to just
+economist.com for $59. You'd get a print subscription
+to The Economist for $125. You could get a print plus
+web subscription for $125. Now, you look at
+those three choices. If you're like me anyway, the first thing you think is, what lunatic would choose
+choice number two? Seeing as choice number
+three is the very same cost, but they're throwing
+in $59 value for free. You get the print plus
+web subscription for the exact same cost
+that you would have for the print subscription. Why in heaven's name would anyone choose point number two? Indeed, that's quite reasonable. There is a reason that The Economist gives you these
+three choices, however. They're intending for you to focus on the last two choices. Since it's an obvious decision between those last two choices, you would choose number three, print plus web subscription. That's what they
+want you to choose. They would prefer you to choose print plus web subscription for $125 rather than
+just a web subscription. That's their preference. They're making this
+sub-choice easy for you. So in fact, people tend to disproportionately
+when given three choices, two of which are easily comparable and one of those
+two is obviously better, people tend to choose the
+better of those two and ignore the third
+choice altogether. Is that rational? Well, there are reasons for it. There may be good reasons
+for it in human thinking. But in another respect, it's an example where our judgment is being pushed
+in one direction or another. Ariely describes a very
+interesting experiment in his same discussion of this, and I'll see if I can
+describe it for you. It takes a little setting up. He wanted to see
+if he could design a situation where people would be prompted to make the
+choice that he wanted them to make by giving them a similar three-way choice
+that The Economist does here. So here's what he did. First, he took lots of photos. You could do this, by the way, as the mathematicians say, without loss of generality, you could do this with photos of men and women looking
+at photos of men, or you could do it with photos of women and men looking
+at photos of women. So apparently, the
+phenomenon works the same. So we'll just say for description that we're
+dealing with photos of males, and there are women looking
+at photos of males. In this case, they are rating the photos by attractiveness. So in the first phase of the
+experiment, you show many, many photos of males to female subjects and have them rate these photos according
+to attractiveness. Having done that, let's just say that you have two photos of two
+particular males. These are not famous
+people or anything, they're just photos
+of random folks. But we have two photos of males, call them A and B, who in the first phase of the experiment have been found
+to be equally attractive. So without any other information, if you were to take a new female subject and
+show her photos of A and B, you might expect about a 50, 50 chance that she would find A more attractive than
+B, or vice versa. Now, here's what Ariely did. He took some of these
+photos. Hold on. He took some of these photos. Let's take the photo
+A and the photo B, and remember these are
+equally attractive folks, and he used a little bit of photoshop on one or
+another of these photos. So let's say that we take A, and we do photoshop on photo A to produce a new
+photo we'll call it A prime. Now, this being a
+psychological experiment, the photo of A is morphed a little bit to be a little
+asymmetric or the face, the head shape is a little
+odd or something like that. In other words, A prime looks like A, but less attractive. Now, if you show these three photos to
+a new female subject, someone who hasn't been involved in the first
+part of the experiment, you show her A, A prime, and B, and you ask which of these three people
+is most attractive? If the choice A prime
+had not been presented, you would expect about a 50-50 chance that she
+would choose A or B. However, the photo A prime here acts like choice two in
+the economists situation. So she looks at
+these three photos, and is much more
+likely to choose A. A prime is like that print
+subscription to the economist. No one's going to choose A prime, but the choice between
+A and A prime is easy, and so the focus is driven to make a choice
+between A and A prime. Similarly, if you do not
+show the photo A prime, but do a similar photoshop job, and now show A, B, and B prime to a
+new female subject, she'll be much more
+likely to choose B. The choice between B
+and B prime is easy, and the focus is then
+made on this easy choice, and it is much more likely
+that she'll choose B than A. So what would have been a fairly difficult or delicate
+decision between A and B, can be made to be an
+almost automatic decision, by giving an irrelevant
+third choice that somehow drives attention toward one choice or the other. That's pretty interesting. Now you might think
+again that's irrational. By the way, Ariely says
+there's a lesson in this. If you are going out
+looking for a date, whether you're male
+or female you're, going out looking for a date, maybe going to a bar or
+a party or something. He says it's a good idea to bring along somebody who
+looks just like you, but a little less
+attractive, that may work. Of course you don't want to tell the other person that that's
+why you're inviting them. But anyway, that would fall into the category of this
+problem framing. Again, when some people
+look at examples like this, like The Economist example
+over this photo experiment, they get a little
+disturbed about it. What it means is
+that their judgment is perhaps not as foolproof if they felt
+it was going to be, and this is where
+this normative side of judgment and
+decision-making comes in. We'd like our judgment to be., if we want to put it this way, as rational as possible. We'd like to be
+able to explain to ourselves why we made
+certain judgments, and we'd like those
+explanations to feel as though they're in accord with what
+we think of as reason. This is often rather difficult. Reason is a slippery concept
+in situations like this. We may begin by asking, are these really
+mistakes altogether? Maybe we don't want to
+think of them as mistakes. Maybe there's a certain sense in that first situation if you have a certain amount of money
+or if you have an object, maybe there are good
+reasons why you should work harder to
+keep what you have, and be less willing to give it up than in situations where
+you don't have something, and you might gamble
+to get a bit more. In other words, maybe there are good reasons
+that you should value what you own already, place a greater value on those objects than on
+objects that you don't have. That may not be a mistake, but if they are mistakes, if we want to cast
+them as mistakes, what are the mechanisms
+that cause us to make them? Those are really
+interesting questions. Could we mimic those
+processes in a machine, or could we make machines
+that make judgments which are less prone
+to human type errors? Those are twin questions
+about this thing. This last example gives rise to yet another
+question which is, should we be worried that others, perhaps others whose interests
+are not aligned with ours, are trying to do things to manipulate our
+decision making. The Economist, in
+Ariely's example, was trying to manipulate the situation so that you would
+make a particular choice. Now, you may end up being
+happy with that choice, but it's clear that the Economist's point of
+view on your decision, and yours, are not identical. So now we deal with the
+situation where other people or institutions can
+exploit the properties of our decision making. Those are questions
+that we need to deal with as we discuss the the subject of judgment and decision
+making in general.

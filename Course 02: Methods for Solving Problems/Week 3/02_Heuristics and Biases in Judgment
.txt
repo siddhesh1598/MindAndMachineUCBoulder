@@ -1,0 +1,238 @@
+While we're on the subject of judgment and decision-making, we began talking about some
+of the issues involved in human judgment
+and decision-making, and we contrasted those with
+some of the ways in which we discuss this from a
+computational view point when we were talking about more
+abstract problem-solving. What I want to do right now
+in this particular session, is describe a couple of
+more examples of what have been called heuristics
+and biases in judgment. Much of the the pioneering
+literature on this, a lot of the original work was done by Daniel Kahneman
+and Amos Tversky. Kahnemann, a few years ago, wrote a very interesting book called Thinking Fast and Slow, which is a compendium of a lot of the work
+that he and Tversky, who died some years
+ago, did together. Much of the research
+that they did on certain heuristics and
+biases that people use in making decisions
+or rendering judgments. Now, the word heuristic, again, is a description
+of rule of thumb, computational technique that we can use that will help us solve problems but it's not
+guaranteed to solve problems. So heuristics are
+things that we can try, that are often good ideas, not always, but ways in which we can approach a
+particular problem. Our association with words
+like bias is more negative. The idea being that we have certain ways of thinking about judgments and these
+cloud our judgment. In any event, you'll get a sense of some of the phenomena. What I'm going to try and
+describe are just a couple of the standard experiments
+that are used to demonstrate these
+phenomena in judgment. So here's an example. This is actually a much discussed and somewhat
+controversial example. When Kahneman wrote
+about it in his book, he mentioned that this
+particular example and the ones along
+the same lines, has garnered the most debate
+about its importance, what it means, whether
+it's a problem. Let me show it to you first. It goes by a general name
+called the Conjunction Effect. The idea is, here you first see a description of a person. So you're given a little
+story about this person Bill. Bill is 34 years old. He is intelligent
+but unimaginative, compulsive, and
+generally lifeless. In school, he was strong in mathematics but weak in social
+studies and humanities. That's the description
+you're given about Bill. Now you're given a
+collection of statements about Bill, like these, and your job is to rank order these statements from
+most to least probable. That's the idea. So you take
+these statements about Bill, and you order them from
+most to least probable. Now, when people think
+about that description of Bill and they look at these
+statements about Bill, stereotypes being what they are, people often tend to assume that perhaps
+Bill is an accountant. Fairly reasonable. They
+don't think that it's especially likely for example that Bill plays jazz for a hobby. The three statements that
+we're interested in here. The others are
+additional choices. But the three statements for
+us to focus on here are, Bill is an an accountant, Bill plays jazz for a hobby, and Bill is an accountant
+who plays jazz for a hobby. Now, here's the thing. When people answer this question, they rank Bill is an
+accountant as most probable. Bill is an accountant
+who plays jazz for a hobby as next most probable, and Bill plays jazz for a
+hobby as least probable. In other words, they
+view this statement as more likely than
+this statement. Now, mathematically,
+that's impossible. Actually, if you
+think about it from the standpoint of set theory, imagine all the situations in which Bill is an accountant, and Bill plays jazz for hobby, and Bill is an accountant
+who plays jazz for a hobby. If he is an accountant who plays jazz for a hobby,
+that's a subset. A smaller number of situations had a much
+smaller number of situations than
+all the situations in which Bill plays
+jazz for a hobby. In other words, it simply
+can't be more probable that Bill is an accountant
+who plays jazz for hobby than that he simply
+plays jazz for a hobby. It can't be more probable. The number of situations
+in which this is true, is a small subset of the situations in
+which this is true. However, people view
+this as more probable. Now, when people see this
+example, me included, I read this example,
+thought about it, yeah, of course once
+you think about it, it has to be more likely
+that Bill plays jazz for hobby than that he placed as for hobby and he has
+a particular profession. Sometimes people look at
+this and they think, "Well, the difficulty is
+the word probable. What do you mean by probable?" People might not for example be interpreting this question as given 10 million
+distinct situations in the world rank ordered the
+frequency in which they occur. What they may be responding to, at least what many students
+when they see this problem. What people may be responding
+to is not so much what's probable mathematically as where do you think this story is going? What's a probable
+ending to this story? That's a fuzzier question, but you might reason that why are you telling me these
+things about Bill unless you're telling me
+something that is informative or archetypical about the
+profession that he has. So maybe you could argue
+back and forth about how the a word like probability is interpreted for
+something like this. Indeed, questions about
+probability are pervasive in the judgment and
+decision-making literature and how we interpret probability. Probability is actually a rather remarkable and complex
+and many mathematicians would say beautiful
+area of mathematics, but it's one that has
+controversies associated with it, about how to interpret
+probability. So not everyone interprets
+probability in the same way. It should also be mentioned
+that the notations, the formal discussion
+of probability, is relatively young
+in human affairs. That is to say,
+you could trace it back to people like say Pascal, who wrote about
+probability in the 1600s. Now, the 1600s may
+feel to us like "Oh, that's a long time ago." It's not all that long
+ago, 3-400 years ago. So we're dealing with ideas about probability that
+we did not evolve with. Therefore, when we
+look at questions that involve some probability, often we're dealing
+with concepts that are relatively new in
+human experience. Let me give you
+another example of a similar problem
+that is cited in the judgment and
+decision-making literature. So here's another
+description of somebody, not Bill different person, Steve. Steve has some
+similarities with Bill, but let's ignore those. Steve is very shy and withdrawn, invariably helpful, but with little interest in people
+or in the world of reality. A neat and tidy soul. He has a need for order and structure and a
+passion for detail. Now you're asked to rank order the probability that Steve
+has one of these professions. Is Stephen architect,
+farmer, librarian, biologist, or taxi driver. Now again, the issue here is somewhat
+different than it was in the previous example. When people look
+at these choices, and again thinking in
+terms of stereotypes, they often hone in on the idea
+that Steve as a librarian. Seems like the person who
+might be a librarian. So they decide that librarian is the most probable choice
+for Steve's profession. Now, one way of looking at this question though is
+to say, really and truly, given what we know, let's assume that we're
+dealing with the population of adult men in America. What's the most
+probable profession for Steve given this description? Well, let's just put it this way. Agriculture is not the
+prominent profession that it used to be
+in America but it's still a pretty
+important profession. Let us ignore the description of Steve for the moment
+and just look at these five professions and
+say without any information at all where are the numbers. I mean, what are the most
+likely of these professions? Certainly, it is
+much more likely for a randomly chosen adult man in America to be a farmer
+than to be a librarian. There may not be nearly as
+many farmers as there used to be but there's still lots more farmers than
+librarians around. So one way of thinking about this going back to the original
+question is to say well, Steve could be a
+typical librarian or he could be a fairly
+shy orderly farmer, and since there are let's say 500 times more farmers
+than there are librarians, it may really be much
+more likely that Steve is a farmer even a somewhat unusual farmer than that he is a fairly typical librarian. The idea being introduced here is sometimes called base rates in
+probability reasoning. Without any other information, given no information
+we would find it much more likely if
+we were choosing a random person out of a huge earn and we were just taking
+descriptions of people, adult males in America out of
+a huge earn it's much more likely that we'll choose a
+farmer than a librarian. If this happens to be a
+description of a farmer that may still be much more likely than that we have chosen a
+description of a librarian. So again, this is not
+something that people generally take into account when dealing with a
+situation like this. Kahneman and Tversky
+argue that we have a blind spot when it
+comes to these base rates and that this can cost us in certain decision-making
+situations. We'll get back to
+discussions of that idea. But let me show you a
+couple of other phenomena. One is called, it's usually put forward in situations that involve numbers
+or quantities, needn't always but
+it's called anchoring. This is an example of the kind of question that displays anchoring when people try to answer it. So you take a population of subjects and you ask
+them a question like was Ronald Reagan 120
+years old when he died or was Ronald Reagan
+50 years old when he died? Now, both of those
+answers are wrong and the answer is no in both cases. When people see these questions they know well Reagan lived past 50 years old and just about nobody
+lives to 120 years old. So when they look at these
+two questions they answer no. But then in both cases, if you ask the person
+a subsequent question, how old was he when he died? The people who are asked the first question will reliably give you
+a larger number, an older number than the people who were asked
+the second question. In other words, when
+people are asked the first question
+and then they say, "No, Reagan was not 120." You ask them how
+old was he when he died and it appears
+that what they're doing more or less to a good
+approximation is taking the original number of 120 and reasoning
+downward from it, moving downward until
+they find a number where they think that might be the age at which Reagan died. In the second case, they're
+taking the number 50 and moving upward until they think they've got a
+reasonable number. In both cases, what people
+do is they end up with an age guess that is closer to the number if you
+want to put it this way, the number that they
+were primed with. So you give people this
+question and you can move their numeric judgment in one
+way or another by getting them to start from an original position,
+an anchoring position. So this is an example of
+what could be called a bias in judgment and one that might be exploited in other situations. Here's another example. It's an example that draws
+on research from memory, from the studies of recall of words and
+facts and so forth. So people are asked
+this question, estimate the proportion of
+English words that begin with the letter K versus words that have a K in
+the third position. Now, as it turns out there are
+more words in English with K in the third
+position than there are words with K in
+the first position. However, the structure
+of our memory for words seems to be indexed by first letter,
+maybe first sound. In any event when people
+are asked to come up with words that either have K in the third position or
+K in the first position, they find it easier to come up with words with K in
+the first position, that's an easier job. They can think of
+the words that they know that begin with K. It takes more effort to think of the words that we know with
+K in the third position. So in this case, even
+though the correct answer is there are more words with
+K in the third position, the words that begin with K
+are more available to us, more available to our
+memories and that leads us to make a mistake
+in answering this question. You could view it as a
+mistake in judgment. These are just a
+few of the examples of the literature and
+judgment and decision-making. You notice that many
+of these examples have this flavor that you
+can present people with situations where it then appears that people are
+making foolish decisions. Now, the question of whether these are
+really bad decisions, whether this is really
+a problem for us, that itself is a
+matter of some debate. There are researchers who
+feel that these are not especially important or dire
+problems in judgment for us. Maybe in some sense we don't even want to call them mistakes but if we do want to
+call them mistakes, are they terribly important? If they are important, why do we make them and can we train ourselves not to make them? Some people in the literature describe these as illusions, analogous to optical illusions which means that
+they could be fairly pessimistic about
+the idea that we can train ourselves not
+to make these errors. When we see certain kinds of optical illusions even if we know that there's an illusion, take illusions where you see two lines which happen
+to be the same length. Here, I'll draw one for you. The famous Muller-Lyer illusion. I don't know if I'm
+doing it perfectly but here's the idea. You're given these two lines, one of which has arrowheads pointing inward on the
+ends and the other has, if you want to call them
+that, arrowheads pointing outward and the lines
+are the same length but often when we look at
+these two lines we view this one as being smaller and
+this one as being longer. It's hard to train yourself
+out of that illusion. It's not a question of you may even know intellectually that the two lines are the same length and yet when
+you look at the picture, you keep saying to
+yourself they look like they're different lengths
+I can't help myself. Some people describe
+the phenomena involving judgment and decision
+making in a similar way, that we might even know that this isn't an error but we can't quite
+help ourselves. So that leads to
+other questions about whether even if we
+know that we're making these errors, can we fix it? A related question is
+can we design machines? Can we design programs whose heuristics or biases
+are different than those that we have or that are
+perhaps more mathematically rigorous or use different
+internal models of probability than the
+ones that we typically use? Can we design programs
+that are far less likely to make these errors
+than human beings are? Those are interesting
+questions and as we continue to talk about the judgment and
+decision-making literature, we'll touch on some
+of these debates.
